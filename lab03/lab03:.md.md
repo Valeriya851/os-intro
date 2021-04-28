@@ -139,19 +139,24 @@
 **Описание результатов выполнения задания:**
 
 1.	Установила команду git:
+
 ```sudo apt install git``` (рис 1.1)
+ 
  ![Рис 1.1. Установка](https://github.com/Valeriya851/os-intro/blob/os-intro/lab03/screenshots/1:.png)
 
 Рис 1.1.Установка
 
 2.	Вручную устранила проблемы:
+
 ```sudo dpkg --configure -a ```(рис 2.1)
+ 
  ![](https://github.com/Valeriya851/os-intro/blob/os-intro/lab03/screenshots/2:.png)
  
 Рис 2.1. Устранение проблемы
 
 3.	Создала учетную запись на [github](https://github.com): (рис 3.1 и рис 3.2)
- ![](https://github.com/Valeriya851/os-intro/blob/os-intro/lab03/screenshots/4:.png)
+
+![](https://github.com/Valeriya851/os-intro/blob/os-intro/lab03/screenshots/4:.png)
  
 Рис 3.1. Создание учетной записи
  
@@ -190,6 +195,7 @@
 Рис 6.1. Каталоги
 
 7.	Инициализировала систему git: (рис 7.1)
+
 ```git init```
  
  ![](https://github.com/Valeriya851/os-intro/blob/os-intro/lab03/screenshots/8:.png)
@@ -197,6 +203,7 @@
 Рис 7.1. Инициализация
 
 8.	Создала заготовку для файла README.md: (рис 8.1)
+
 ```echo “# Лабораторные работы” >> README.md```
  
  ![](https://github.com/Valeriya851/os-intro/blob/os-intro/lab03/screenshots/9:.png)
@@ -220,6 +227,7 @@
 Рис 9.2
 
 10.	 Добавила файл лицензии: (рис 10.1)
+
 ```wget https://creativecommons.org/licenses/by/4.0/legalcode.txt -O LICENSE```
  
  ![](https://github.com/Valeriya851/os-intro/blob/os-intro/lab03/screenshots/13:.png?raw=true![image](https://user-images.githubusercontent.com/83212205/116371962-c8c0b800-a82d-11eb-853d-5a5c0f6612e8.png)
@@ -228,6 +236,7 @@
 Рис 10.1. Добавление файла лицензии
 
 11.	Добавила шаблон игнорируемых файлов: (рис 11.1)
+
 ```curl -L -s https://www.gitignore.io/api/list```
  
  ![](https://github.com/Valeriya851/os-intro/blob/os-intro/lab03/screenshots/17:.png)
@@ -235,6 +244,7 @@
 Рис 11.1. Шаблон игнорируемых файлов
 
 12.	 Скачала шаблон С: (рис 12.1 и рис 12.2)
+
 ```curl -L -s https://www.gitignore.io/api/c >> .gitignore```
  
  ![](https://github.com/Valeriya851/os-intro/blob/os-intro/lab03/screenshots/16:.png)
@@ -246,6 +256,7 @@
 Рис 12.2. Генерация файла
 
 13.	Добавила новые файлы: (рис 13.1)
+
 ```git add .gitignore```
       
       Выполнила коммит:
@@ -259,6 +270,7 @@
 Рис 13.1
 
 14.	 Сгенерировала ключ: (рис 14.1)
+
 ```ssh-keygen -t ed25519 -C leratuleeva@gmail.com```
  
  ![](https://github.com/Valeriya851/os-intro/blob/os-intro/lab03/screenshots/18:.png)
@@ -266,6 +278,7 @@
 Рис 14.1. Генерация ключа
 
 15.	 Установила xclip: (рис 15.1)
+
 ```sudo apt install xclip```
  
  ![](https://github.com/Valeriya851/os-intro/blob/os-intro/lab03/screenshots/19:.png)
@@ -273,6 +286,7 @@
 Рис 15.1. Установка
 
 16.	 Скопировала ключ: (рис 16.1)
+
 ```cat ~/.ssh/id_ed25519.pub | xclip -selclip```
  
  ![](https://github.com/Valeriya851/os-intro/blob/os-intro/lab03/screenshots/20:.png)
@@ -286,6 +300,7 @@
 Рис 17.1
 
 18.	 Загрузила git-flow: (рис 18.1)
+
 ```sudo apt-get install git-flow```
 
  ![](https://github.com/Valeriya851/os-intro/blob/os-intro/lab03/screenshots/25:.png)
@@ -293,6 +308,7 @@
 Рис 18.1. Установка
 
 19.	 Инициализировала git-flow: (рис 19.1)
+
 ```git flow init```
  
  ![](https://github.com/Valeriya851/os-intro/blob/os-intro/lab03/screenshots/26:.png)
@@ -300,6 +316,7 @@
 Рис 19.1. Инициализация
 
 20.	 Проверила, что я на ветке develop: (рис 20.1)
+
 ```git branch```
  
  ![](https://github.com/Valeriya851/os-intro/blob/os-intro/lab03/screenshots/27:.png)
@@ -307,6 +324,7 @@
 Рис 20.1
 
 21.	 Создала релиз с версией 1.0.0: (рис 21.1)
+
 ```git flow release start 1.0.0```
  
  ![](https://github.com/Valeriya851/os-intro/blob/os-intro/lab03/screenshots/28:.png)
@@ -314,6 +332,7 @@
 Рис 21.1. Создание релиза
 
 22.	 Записала версию: (рис 22.1)
+
 ```echo “1.0.0” >> VERSION```
  
  ![](https://github.com/Valeriya851/os-intro/blob/os-intro/lab03/screenshots/29:.png)
@@ -331,6 +350,7 @@
 Рис 23.1. Добавление
 
 24.	 Залила релизную ветку в основную ветку: (рис 24.1)
+
 ```git flow release finish 1.0.0```
  
  ![](https://github.com/Valeriya851/os-intro/blob/os-intro/lab03/screenshots/32:.png)
