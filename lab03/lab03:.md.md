@@ -160,6 +160,7 @@
 Рис 3.2
 
 4.	Создала локальный репозиторий: (рисс 4.1)
+
 ```git config --global user.name “Tuleeva Valeriya”```
 
 ```git config --global user.email leratuleeva@gmail.com```
@@ -175,9 +176,13 @@
 Рис 5.1. Создание репозитория на сайте
 
 6.	Создала каталог work и в нем каталог laboratory: (рис 6.1)
+
 ```mkdir work```
+
 ```cd work```
+
 ```mkdir laboratory```
+
 ```cd laboratory```
  
  ![](https://github.com/Valeriya851/os-intro/blob/os-intro/lab03/screenshots/7:.png)
@@ -199,8 +204,11 @@
 Рис 8.1. Создание заготовки для файла
 
 9.	Сделала первый коммит и выложила на github: (рис 9.1 и рис 9.2)
+
 ```git commit -m “first commit”```
+
 ```git remote add origin git@github.com:Valeriya851/sciproc-intro.git```
+
 ```git push -u origin master```
  
  ![](https://github.com/Valeriya851/os-intro/blob/os-intro/lab03/screenshots/12:.png)
@@ -313,7 +321,9 @@
 Рис 22.1. Запись
 
 23.	 Добавила в индекс: (рис 23.1)
+
 ```git add .```
+
 ```git commit -am ‘chore(main): add version’```
  
  ![](https://github.com/Valeriya851/os-intro/blob/os-intro/lab03/screenshots/31:.png)
@@ -328,7 +338,9 @@
 Рис 24.1
 
 25.	 Отправила данные на github:
+
 ```git push –all``` (рис 25.1)
+
 ```git push –tags``` (рис 25.2)
  
  ![](https://github.com/Valeriya851/os-intro/blob/os-intro/lab03/screenshots/33:.png)
