@@ -252,7 +252,8 @@
  
 *Рис 12.1. Скачивание шаблона С*
  
- ![](https://github.com/Valeriya851/os-intro/blob/os-intro/lab03/screenshots/37:.png.png)
+ ![](https://github.com/Valeriya851/os-intro/blob/os-intro/lab03/screenshots/37:.png.png?raw=true![image](https://user-images.githubusercontent.com/83212205/116392696-8e154a80-a842-11eb-8283-4b5ce27cd0c6.png)
+
  
 *Рис 12.2. Генерация файла*
 
