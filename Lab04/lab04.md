@@ -246,39 +246,26 @@
 - утилиты kdeutils.
 
 
-12.	 Перешла в XFCE: *(рис 12.1 и рис 12.2)*
+12.	 Перешла в XFCE: *(рис 12.1)*
+ 
+ ![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab04/Screenshots/2.png?raw=true![image](https://user-images.githubusercontent.com/83212205/116733111-7fc75a00-aa0d-11eb-8bdc-841fd853c36d.png))
+ 
+*Рис 12.1. XFCE*
 
- 
- ![]()
- 
-*Рис 12.1. Скачивание шаблона С*
- 
- ![]()
-
- 
-*Рис 12.2. Генерация файла*
 
 13.	Перешла в KDE: *(рис 13.1)*
+ 
+ ![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab04/Screenshots/9.png?raw=true![image](https://user-images.githubusercontent.com/83212205/116733415-e5b3e180-aa0d-11eb-9ddf-86dc804022a0.png))
+ 
+*Рис 13.1. KDE*
 
-```git add .gitignore```
-      
-      Выполнила коммит:
-```git commit -m```
-      
-      Отправила на github:
-```git push```
- 
- ![]()
- 
-*Рис 13.1*
 
 14.	 Перешла в GNOME: *(рис 14.1)*
+ 
+ ![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab04/Screenshots/gnome1.png?raw=true![image](https://user-images.githubusercontent.com/83212205/116733532-07ad6400-aa0e-11eb-92f2-66858dbd3bab.png))
+ 
+*Рис 14.1. GNOME*
 
-```ssh-keygen -t ed25519 -C leratuleeva@gmail.com```
- 
- ![]()
- 
-*Рис 14.1. Генерация ключа*
 
 **Какие графические менеджеры установлены на вашем компьютере?** *(рис 14.2)*
 
@@ -300,13 +287,107 @@
 
 *Рис 14.2. Список графических менеджеров*
 
-15.	 Изучила список установленных программ: *(рис 15.1)*
+15.	 Изучила список установленных программ: 
 
+**XFCE:**
+
+- Файловая система (рис 15.1):
 
  
- ![]()
+ ![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab04/Screenshots/3.png?raw=true![image](https://user-images.githubusercontent.com/83212205/116733793-5bb84880-aa0e-11eb-9c95-a372983e7fee.png))
  
-*Рис 15.1. Установка*
+*Рис 15.1. Файловая система*
+
+
+- Переход в файловую систему через терминал (рис 15.2):
+
+```Thunar```
+
+![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab04/Screenshots/4.png?raw=true![image](https://user-images.githubusercontent.com/83212205/116733975-9fab4d80-aa0e-11eb-9980-b3587157f163.png))
+
+*Рис 15.2. Переход через терминал*
+
+
+- Интернет браузер (рис 15.3):
+
+![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab04/Screenshots/5.png?raw=true![image](https://user-images.githubusercontent.com/83212205/116734216-f749b900-aa0e-11eb-8440-0436d8be552f.png))
+
+*Рис 15.3. Интернет браузер*
+
+
+- Текстовый редактор (рис 15.4):
+
+![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab04/Screenshots/6.png?raw=true![image](https://user-images.githubusercontent.com/83212205/116734549-34ae4680-aa0f-11eb-8fc8-98c71779802a.png))
+
+*Рис 15.4. Текстовый редактор*
+
+
+- Mousepad (рис 15.5):
+
+![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab04/Screenshots/7.png?raw=true![image](https://user-images.githubusercontent.com/83212205/116734675-5e676d80-aa0f-11eb-9fce-8052c7c1e74f.png))
+
+*Рис 15.5. Mousepad*
+
+
+**KDE:**
+
+
+- Интернет браузер (рис 15.6):
+
+![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab04/Screenshots/8.png?raw=true![image](https://user-images.githubusercontent.com/83212205/116734873-9a9ace00-aa0f-11eb-81da-ac21f825bb09.png))
+
+*Рис 15.6. Интернет браузер*
+
+
+- Меню (рис 15.7):
+
+![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab04/Screenshots/10.png?raw=true![image](https://user-images.githubusercontent.com/83212205/116735052-d33aa780-aa0f-11eb-9c45-33a99c765440.png))
+
+*Рис 15.7. Меню*
+
+
+- Текстовый редактор (рис 15.8):
+
+![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab04/Screenshots/11.png?raw=true![image](https://user-images.githubusercontent.com/83212205/116735192-ffeebf00-aa0f-11eb-9904-310fcc17c7a8.png))
+
+*Рис 15.8. Текстовый редактор*
+
+
+- Терминал (рис 15.9):
+
+![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab04/Screenshots/12.png?raw=true![image](https://user-images.githubusercontent.com/83212205/116735302-214fab00-aa10-11eb-9b7e-93dd34e8b390.png))
+
+*Рис 15.9. Терминал*
+
+
+**GNOME:**
+
+- Терминал (рис 15.10):
+
+![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab04/Screenshots/gnome3.png?raw=true![image](https://user-images.githubusercontent.com/83212205/116735485-62e05600-aa10-11eb-9bf7-e0a14820d0ea.png))
+
+*Рис 15.10. Терминал*
+
+
+- Интернет браузер (рис 15.11):
+
+![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab04/Screenshots/gnome4.png?raw=true![image](https://user-images.githubusercontent.com/83212205/116735615-97541200-aa10-11eb-8070-380a58f0abe5.png))
+
+*Рис 15.11. Интернет браузер*
+
+
+- Меню (рис 15.12):
+
+![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab04/Screenshots/gnome1.png?raw=true![image](https://user-images.githubusercontent.com/83212205/116735706-b94d9480-aa10-11eb-827d-254d4e301154.png))
+
+*Рис 15.12. Меню*
+
+
+- Текстовый редактор (рис 15.13):
+
+![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab04/Screenshots/gnome5.png?raw=true![image](https://user-images.githubusercontent.com/83212205/116735860-ea2dc980-aa10-11eb-887c-b72c7f026b70.png))
+
+*Рис 15.13. Текстовый редактор*
 
 
 **Контрольные вопросы (лабораторная работа №4)**
