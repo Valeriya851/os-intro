@@ -85,32 +85,40 @@
 
 **Описание результатов выполнения задания:**
 
-1.	Установила команду git:
+1. Ознакомилась с теоретическим материалом:
+   [Теоретический материал](https://esystem.rudn.ru/pluginfile.php/1142489/mod_resource/content/3/001-lab_intro.pdf)
 
-```sudo apt install git``` *(рис 1.1)*
+
+2.	Загрузила компьютер *(рис 2.1)*:
  
- ![Рис 1.1.]()
-
-*Рис 1.1.Установка*
-
-2.	Вручную устранила проблемы:
-
-```sudo dpkg --configure -a ```*(рис 2.1)*
+ ![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab04/Screenshots/1.png?raw=true![image](https://user-images.githubusercontent.com/83212205/116702483-f56dfe80-a9ea-11eb-9a6e-e17c244a4443.png))
  
- ![]()
- 
-*Рис 2.1. Устранение проблемы*
+*Рис 2.1. Загрузила компьютер*
 
-3.	Создала учетную запись на [github](https://github.com): *(рис 3.1 и рис 3.2)*
+3.	Перешла на текстовую консоль: *(рис 3.1)*
 
-![]()
- 
-*Рис 3.1. Создание учетной записи*
- 
- ![]()
- 
-*Рис 3.2*
+    ```Ctrl``` + ```Alt``` + ```F3```
 
+![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab04/Screenshots/консоль.jpg?raw=true![image](https://user-images.githubusercontent.com/83212205/116703515-33b7ed80-a9ec-11eb-84c2-6ab68d929a38.png))
+ 
+*Рис 3.1. Переход на текстовую консоль*
+ 
+ Сколько текстовых консолей доступно на вашем компьютере?
+ 
+ На моем компьютере доступно 4 текстовых консолей. *(рис 3.1, рис 3.2, рис 3.3 и рис 3.4)*
+ 
+ ![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab04/Screenshots/консоль3.jpg?raw=true![image](https://user-images.githubusercontent.com/83212205/116705105-03714e80-a9ee-11eb-9eda-7a05221e7585.png))
+ 
+*Рис 3.2. tty4*
+
+ ![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab04/Screenshots/консоль1.jpg?raw=true![image](https://user-images.githubusercontent.com/83212205/116705248-23087700-a9ee-11eb-9001-e157fc1d0c17.png))
+ 
+ *Рис 3.3. tty5*
+ 
+ ![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab04/Screenshots/консоль2.jpg?raw=true![image](https://user-images.githubusercontent.com/83212205/116705024-e9377080-a9ed-11eb-9602-5f9eea4c9c56.png))
+ 
+ *Рис 3.4. tty6*
+ 
 4.	Создала локальный репозиторий: *(рис 4.1)*
 
 ```git config --global user.name “Tuleeva Valeriya”```
