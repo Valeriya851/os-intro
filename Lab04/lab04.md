@@ -89,7 +89,7 @@
 
 ```sudo apt install git``` *(рис 1.1)*
  
- ![Рис 1.1.](https://github.com/Valeriya851/os-intro/blob/os-intro/lab03/screenshots/1:.png?raw=true![image](https://user-images.githubusercontent.com/83212205/116393415-683c7580-a843-11eb-8506-a95c6b2402f6.png))
+ ![Рис 1.1.]()
 
 *Рис 1.1.Установка*
 
@@ -97,17 +97,17 @@
 
 ```sudo dpkg --configure -a ```*(рис 2.1)*
  
- ![](https://github.com/Valeriya851/os-intro/blob/os-intro/lab03/screenshots/2:.png?raw=true![image](https://user-images.githubusercontent.com/83212205/116393469-7b4f4580-a843-11eb-8a7c-60cacb7b210b.png))
+ ![]()
  
 *Рис 2.1. Устранение проблемы*
 
 3.	Создала учетную запись на [github](https://github.com): *(рис 3.1 и рис 3.2)*
 
-![](https://github.com/Valeriya851/os-intro/blob/os-intro/lab03/screenshots/4:.png?raw=true![image](https://user-images.githubusercontent.com/83212205/116393511-8a35f800-a843-11eb-9626-294d10efaa78.png))
+![]()
  
 *Рис 3.1. Создание учетной записи*
  
- ![](https://github.com/Valeriya851/os-intro/blob/os-intro/lab03/screenshots/5:.png?raw=true![image](https://user-images.githubusercontent.com/83212205/116393543-95892380-a843-11eb-89d4-bdc7f2bb1ef4.png))
+ ![]()
  
 *Рис 3.2*
 
@@ -117,13 +117,13 @@
 
 ```git config --global user.email leratuleeva@gmail.com```
  
- ![](https://github.com/Valeriya851/os-intro/blob/os-intro/lab03/screenshots/3:.png?raw=true![image](https://user-images.githubusercontent.com/83212205/116393575-a20d7c00-a843-11eb-8027-bcb3c06437b0.png))
+ ![]()
  
 *Рис 4.1. Создание локального репозитория*
 
 5.	Создала репозиторий на Github и назвала его os-intro: *(рис 5.1)*
  
- ![](https://github.com/Valeriya851/os-intro/blob/os-intro/lab03/screenshots/6:.png?raw=true![image](https://user-images.githubusercontent.com/83212205/116393603-ae91d480-a843-11eb-977d-206196120fe0.png))
+ ![]()
  
 *Рис 5.1. Создание репозитория на сайте*
 
@@ -137,7 +137,7 @@
 
 ```cd laboratory```
  
- ![](https://github.com/Valeriya851/os-intro/blob/os-intro/lab03/screenshots/7:.png?raw=true![image](https://user-images.githubusercontent.com/83212205/116393639-bb162d00-a843-11eb-857c-7b3e95b12e41.png))
+ ![]()
  
 *Рис 6.1. Каталоги*
 
@@ -145,7 +145,7 @@
 
 ```git init```
  
- ![](https://github.com/Valeriya851/os-intro/blob/os-intro/lab03/screenshots/8:.png?raw=true![image](https://user-images.githubusercontent.com/83212205/116393679-c5382b80-a843-11eb-98ee-7d15991d4f2a.png))
+ ![]()
  
 *Рис 7.1. Инициализация*
 
@@ -153,7 +153,7 @@
 
 ```echo “# Лабораторные работы” >> README.md```
  
- ![](https://github.com/Valeriya851/os-intro/blob/os-intro/lab03/screenshots/9:.png?raw=true![image](https://user-images.githubusercontent.com/83212205/116393721-d123ed80-a843-11eb-895a-7932a9167bd2.png))
+ ![]()
  
 *Рис 8.1. Создание заготовки для файла*
 
@@ -165,11 +165,11 @@
 
 ```git push -u origin master```
  
- ![](https://github.com/Valeriya851/os-intro/blob/os-intro/lab03/screenshots/12:.png?raw=true![image](https://user-images.githubusercontent.com/83212205/116393802-e9940800-a843-11eb-8474-8b7eb243492e.png))
+ ![]()
  
 *Рис 9.1. Создание первого коммита*
  
- ![](https://github.com/Valeriya851/os-intro/blob/os-intro/lab03/screenshots/36:.png.png?raw=true![image](https://user-images.githubusercontent.com/83212205/116393842-f6b0f700-a843-11eb-8199-1fb597f85bd4.png))
+ ![]()
  
 *Рис 9.2*
 
@@ -177,8 +177,8 @@
 
 ```wget https://creativecommons.org/licenses/by/4.0/legalcode.txt -O LICENSE```
  
- ![](https://github.com/Valeriya851/os-intro/blob/os-intro/lab03/screenshots/13:.png?raw=true![image](https://user-images.githubusercontent.com/83212205/116371962-c8c0b800-a82d-11eb-853d-5a5c0f6612e8.png)
-)
+ ![]()
+
  
 *Рис 10.1. Добавление файла лицензии*
 
@@ -186,7 +186,7 @@
 
 ```curl -L -s https://www.gitignore.io/api/list```
  
- ![](https://github.com/Valeriya851/os-intro/blob/os-intro/lab03/screenshots/17:.png?raw=true![image](https://user-images.githubusercontent.com/83212205/116393914-0f211180-a844-11eb-9698-ffb1168d0748.png))
+ ![]()
  
 *Рис 11.1. Шаблон игнорируемых файлов*
 
@@ -194,11 +194,11 @@
 
 ```curl -L -s https://www.gitignore.io/api/c >> .gitignore```
  
- ![](https://github.com/Valeriya851/os-intro/blob/os-intro/lab03/screenshots/16:.png?raw=true![image](https://user-images.githubusercontent.com/83212205/116394020-311a9400-a844-11eb-8bc9-d605a08b60b5.png))
+ ![]()
  
 *Рис 12.1. Скачивание шаблона С*
  
- ![](https://github.com/Valeriya851/os-intro/blob/os-intro/lab03/screenshots/37:.png.png?raw=true![image](https://user-images.githubusercontent.com/83212205/116392696-8e154a80-a842-11eb-8283-4b5ce27cd0c6.png))
+ ![]()
 
  
 *Рис 12.2. Генерация файла*
@@ -213,7 +213,7 @@
       Отправила на github:
 ```git push```
  
- ![](https://github.com/Valeriya851/os-intro/blob/os-intro/lab03/screenshots/11:.png?raw=true![image](https://user-images.githubusercontent.com/83212205/116394049-3b3c9280-a844-11eb-8f3b-9222a8994616.png))
+ ![]()
  
 *Рис 13.1*
 
@@ -221,7 +221,7 @@
 
 ```ssh-keygen -t ed25519 -C leratuleeva@gmail.com```
  
- ![](https://github.com/Valeriya851/os-intro/blob/os-intro/lab03/screenshots/18:.png?raw=true![image](https://user-images.githubusercontent.com/83212205/116394074-455e9100-a844-11eb-9a29-3f872fe5ec14.png))
+ ![]()
  
 *Рис 14.1. Генерация ключа*
 
@@ -229,7 +229,7 @@
 
 ```sudo apt install xclip```
  
- ![](https://github.com/Valeriya851/os-intro/blob/os-intro/lab03/screenshots/19:.png?raw=true![image](https://user-images.githubusercontent.com/83212205/116394101-4f808f80-a844-11eb-8025-f95418cd45e2.png))
+ ![]()
  
 *Рис 15.1. Установка*
 
@@ -237,13 +237,13 @@
 
 ```cat ~/.ssh/id_ed25519.pub | xclip -selclip```
  
- ![](https://github.com/Valeriya851/os-intro/blob/os-intro/lab03/screenshots/20:.png?raw=true![image](https://user-images.githubusercontent.com/83212205/116394139-5ad3bb00-a844-11eb-8d91-eea80692c694.png))
+ ![]()
  
 *Рис 16.1. Копирование ключа*
 
 17.	 Вставила ключ в появившееся на сайте поле. *(рис 17.1)*
  
- ![](https://github.com/Valeriya851/os-intro/blob/os-intro/lab03/screenshots/21:.png?raw=true![image](https://user-images.githubusercontent.com/83212205/116394180-658e5000-a844-11eb-82d4-fb415bead819.png))
+ ![]()
  
 *Рис 17.1*
 
@@ -251,7 +251,7 @@
 
 ```sudo apt-get install git-flow```
 
- ![](https://github.com/Valeriya851/os-intro/blob/os-intro/lab03/screenshots/25:.png?raw=true![image](https://user-images.githubusercontent.com/83212205/116394207-717a1200-a844-11eb-99ce-9ea95256aa15.png))
+ ![]()
  
 *Рис 18.1. Установка*
 
@@ -259,7 +259,7 @@
 
 ```git flow init```
  
- ![](https://github.com/Valeriya851/os-intro/blob/os-intro/lab03/screenshots/26:.png?raw=true![image](https://user-images.githubusercontent.com/83212205/116394247-7ccd3d80-a844-11eb-8b59-146a2e9b05cf.png))
+ ![]()
  
 *Рис 19.1. Инициализация*
 
@@ -267,7 +267,7 @@
 
 ```git branch```
  
- ![](https://github.com/Valeriya851/os-intro/blob/os-intro/lab03/screenshots/27:.png?raw=true![image](https://user-images.githubusercontent.com/83212205/116394278-89519600-a844-11eb-8dcf-8a658138f28a.png))
+ ![]()
  
 *Рис 20.1*
 
@@ -275,7 +275,7 @@
 
 ```git flow release start 1.0.0```
  
- ![](https://github.com/Valeriya851/os-intro/blob/os-intro/lab03/screenshots/28:.png?raw=true![image](https://user-images.githubusercontent.com/83212205/116394320-94a4c180-a844-11eb-81e4-9251c2923740.png))
+ ![]()
  
 *Рис 21.1. Создание релиза*
 
@@ -283,7 +283,7 @@
 
 ```echo “1.0.0” >> VERSION```
  
- ![](https://github.com/Valeriya851/os-intro/blob/os-intro/lab03/screenshots/29:.png?raw=true![image](https://user-images.githubusercontent.com/83212205/116394354-a1c1b080-a844-11eb-9c0c-e1b825622842.png))
+ ![]()
  
 *Рис 22.1. Запись*
 
@@ -293,7 +293,7 @@
 
 ```git commit -am ‘chore(main): add version’```
  
- ![](https://github.com/Valeriya851/os-intro/blob/os-intro/lab03/screenshots/31:.png?raw=true![image](https://user-images.githubusercontent.com/83212205/116394398-af773600-a844-11eb-8218-e6fe628890b7.png))
+ ![]()
  
 *Рис 23.1. Добавление*
 
@@ -301,7 +301,7 @@
 
 ```git flow release finish 1.0.0```
  
- ![](https://github.com/Valeriya851/os-intro/blob/os-intro/lab03/screenshots/32:.png?raw=true![image](https://user-images.githubusercontent.com/83212205/116394450-ba31cb00-a844-11eb-9af9-733ed5695cfe.png))
+ ![]()
  
 *Рис 24.1*
 
@@ -311,17 +311,17 @@
 
 ```git push –tags``` *(рис 25.2)*
  
- ![](https://github.com/Valeriya851/os-intro/blob/os-intro/lab03/screenshots/33:.png?raw=true![image](https://user-images.githubusercontent.com/83212205/116394486-c7e75080-a844-11eb-9cd2-fa80372bb2b1.png))
+ ![]()
  
 *Рис 25.1*
  
- ![](https://github.com/Valeriya851/os-intro/blob/os-intro/lab03/screenshots/34:.png?raw=true![image](https://user-images.githubusercontent.com/83212205/116394516-d2a1e580-a844-11eb-829d-8db0715ec28f.png))
+ ![]()
  
 *Рис 25.2*
 
 26.	 Репозиторий *(рис 26.1)*
  
- ![](https://github.com/Valeriya851/os-intro/blob/os-intro/lab03/screenshots/35:.png?raw=true![image](https://user-images.githubusercontent.com/83212205/116394547-e0576b00-a844-11eb-86ac-11046691fa86.png)
+ ![]()
 )
  
 *Рис 26.1*
@@ -374,6 +374,6 @@
 
 **Вывод:**
 
-В данной лабораторной работе, я  
+В данной лабораторной работе, я познакомилась с операционной системой Linux, получила практические навыки работы с консолью и некоторыми графическими менеджерами рабочих столов операционной системы.
 
 
