@@ -153,56 +153,99 @@
 
 7.	Установила графический интерфей GNOME: *(рис 7.1)*
 
-```git init```
+```sudo apt-get install gnome-shell```
  
- ![]()
+ ![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab04/Screenshots/gnome.png?raw=true![image](https://user-images.githubusercontent.com/83212205/116729712-50165300-aa09-11eb-89d1-fad183b94a67.png))
  
-*Рис 7.1. Инициализация*
+*Рис 7.1. Установка GNOME*
 
 8.	Установила графический интерфейс KDE: *(рис 8.1)*
 
-```echo “# Лабораторные работы” >> README.md```
+```sudo apt-get install kubuntu-desktop```
  
- ![]()
+ ![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab04/Screenshots/KDE.png?raw=true![image](https://user-images.githubusercontent.com/83212205/116729979-b0a59000-aa09-11eb-93b3-5fa87b62e293.png))
  
-*Рис 8.1. Создание заготовки для файла*
+*Рис 8.1. Установка KDE*
 
-9.	Установила графический интерфейс XFCE: *(рис 9.1 и рис 9.2)*
+9.	Установила графический интерфейс XFCE: *(рис 9.1)*
 
-```git commit -m “first commit”```
+```sudo apt-get install xubuntu-desktop```
+ 
+ ![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab04/Screenshots/Xfce.png?raw=true![image](https://user-images.githubusercontent.com/83212205/116730238-142fbd80-aa0a-11eb-91cc-5493e3c97574.png))
+ 
+*Рис 9.1. Установка XFCE*
+ 
 
-```git remote add origin git@github.com:Valeriya851/sciproc-intro.git```
+10.	 Переключилась на графический интерфейс: 
 
-```git push -u origin master```
- 
- ![]()
- 
-*Рис 9.1. Создание первого коммита*
- 
- ![]()
- 
-*Рис 9.2*
+```Ctrl``` + ```Alt``` + ```F7```
 
-10.	 Переключилась на. графический интерфейс: *(рис 10.1)*
 
-```wget https://creativecommons.org/licenses/by/4.0/legalcode.txt -O LICENSE```
- 
- ![]()
+11.	Ознакомилась с менеджером рабочих столов: 
 
- 
-*Рис 10.1. Добавление файла лицензии*
+**Xfce:**
 
-11.	Ознакомилась с менеджером рабочих столов: *(рис 11.1)*
+ Элементы Xfce:
+ 
+– файловый менеджер Thunar;
 
-```curl -L -s https://www.gitignore.io/api/list```
+– менеджер окон Xfwm;
+
+- панель задач xfce4-panel;
+
+- менеджер рабочего стола xfdesktop;
+
+- менеджер сеансов xfce4-session;
+
+- диспетчер настроек xfce4-settings;
+
+- система хранения настроек xfconf;
+
+- поиск приложений xfce4-appfinder;
+
+- эмулятор терминала xfce4-terminal;
+
+- менеджер питания xfce4-power-manager.
+
+**GNOME:**
+
+Некоторые элементы GNOME:
+
+– файловый менеджер Nautilus;
+
+– эмулятор терминала GNOME Terminal;
+
+– текстовый редактор gedit;
+
+– приложение для просмотра документации Yelp;
+
+– стандартный веб-браузер Web (ранее—Epiphany);
+
+– приложение для управления электронной почтой Evolution;
+
+– комплект графических cредств для администрирования GNOME System Tools.
+
+**KDE:**
+
+Некоторые элементы KDE:
+
+- базовые библиотеки KDELibs; 
+
+- компонент для просмотра HTML документов KHTML; 
  
- ![]()
- 
-*Рис 11.1. Шаблон игнорируемых файлов*
+- компонент, обеспечивающий доступ к файлам KIO; 
+
+- оконный менеджер KWin; 
+
+- рабочий стол и основные приложени kdebase; 
+
+- инструменты графического администрирования kdeadmin; 
+
+- утилиты kdeutils.
+
 
 12.	 Перешла в XFCE: *(рис 12.1 и рис 12.2)*
 
-```curl -L -s https://www.gitignore.io/api/c >> .gitignore```
  
  ![]()
  
