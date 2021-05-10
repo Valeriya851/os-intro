@@ -47,6 +47,8 @@ section-titles: true
 
 ```cd newdir```, ```mkdir morefun```
 
+# Задания
+
 - В домашнем каталоге создать одной командой три новых каталога и удалить их;
 
 ```sudo mkdir letters memos misk```
@@ -60,6 +62,9 @@ section-titles: true
 - С помощью комманды man определить опции ```ls```;
 
 ```man ls```
+
+
+# Задания
 
 - С помощью команды man описать команды: ```cd```, ```pwd```, ```mkdir```, ```rm```;
 
