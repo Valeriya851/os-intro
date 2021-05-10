@@ -146,7 +146,7 @@ header-includes:
 
 Использовала команду ls с различными опциями.
 
-![]https://github.com/Valeriya851/os-intro/blob/os-intro/Lab05/Screenshot/3:.png?raw=true![image](https://user-images.githubusercontent.com/83212205/117697199-0507f700-b1e4-11eb-93d8-eaa1d55c6919.png))
+![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab05/Screenshot/3:.png?raw=true![image](https://user-images.githubusercontent.com/83212205/117702589-8498c480-b1ea-11eb-8072-e79fe943a808.png))
  
 *Рис 3.1. Cодержимое каталога ```/tmp```*
 
