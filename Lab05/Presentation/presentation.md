@@ -1,29 +1,12 @@
 ---
 ## Front matter
 lang: ru-RU
-title: Structural approach to the deep learning method
+title: Лабораторная работа №5
 author: |
-	Leonid A. Sevastianov\inst{1,3}
-	\and
-	Anton L. Sevastianov\inst{1}
-	\and
-	Edik A. Ayrjan\inst{2}
-	\and
-	Anna V. Korolkova\inst{1}
-	\and
-	Dmitry S. Kulyabov\inst{1,2}
-	\and
-	Imrikh Pokorny\inst{4}
+	Тулеева Валерия, НБИбд-01-20
 institute: |
 	\inst{1}RUDN University, Moscow, Russian Federation
-	\and
-	\inst{2}LIT JINR, Dubna, Russian Federation
-	\and
-	\inst{3}BLTP JINR, Dubna, Russian Federation
-	\and
-	\inst{4}Technical University of Košice, Košice, Slovakia
-date: NEC--2019, 30 September -- 4 October, 2019 Budva, Montenegro
-
+	
 ## Formatting
 toc: false
 slide_level: 2
@@ -36,3 +19,31 @@ header-includes:
 aspectratio: 43
 section-titles: true
 ---
+
+
+
+# Прагматика
+
+Благодаря данной лабораторной работе появятся практические навыки взаимодействия пользователя с системой посредством командной строки.
+
+
+# Цель работы
+
+Приобретение практических навыков взаимодействия пользователя с системой посредством командной строки.
+
+
+# Задания
+
+- Определить полное имя домашнего каталога;
+- Перейти в каталог ```/tmp``` и вывести содержимое этого каталога;
+- В домашнем каталоге создать новый каталог ```newdir```;
+- В каталоге newdir создать новый каталог ```morefun```;
+- В домашнем каталоге создать одной командой три новых каталога и удалить их;
+- Удалить ранее созданный каталог ```newdir```;
+- С помощью комманды man определить опции ```ls```;
+- С помощью команды man описать команды: ```cd```, ```pwd```, ```mkdir```, ```rm```;
+- Команда ```history```, выполнить модификацию и исполнение нескольких команд из буфера команд
+
+# Результат
+
+В данной лабораторной работе, я приобрела практические навыки взаимодействия пользователя с системой посредством командной строки.
