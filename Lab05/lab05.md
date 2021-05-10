@@ -224,7 +224,6 @@ header-includes:
 
 ```sudo mkdir letters memos misk```
 
-```sudo rm -r letters memos misk```
  
  ![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab05/Screenshot/13:.png?raw=true![image](https://user-images.githubusercontent.com/83212205/117698265-5b296a00-b1e5-11eb-9106-31875bce4539.png))
  
