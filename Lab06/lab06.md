@@ -134,34 +134,37 @@ header-includes:
   
   ```ls -l may```
 
-   ![]()
+   ![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab06/Screenshot/1.png?raw=true![image](https://user-images.githubusercontent.com/83212205/117856768-dbb39d80-b2ad-11eb-9085-46526574c062.png))
    
 *Рис 1.1. Выполнение примеров*
 
 2.	Скопировалала ```usr/include/``` в домашний каталог и назвала его ```equipment``` *(рис 2.1)*:
 
-```n```
+```cd /usr/include```
+
+```sudo cp signal.h /home```
+
  
- ![]()
+ ![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab06/Screenshot/2.png?raw=true![image](https://user-images.githubusercontent.com/83212205/117856850-f0903100-b2ad-11eb-98e1-100e867ef4c4.png))
  
 *Рис 2.1. Копирование и переименование*
 
 3.	В домашнем каталоге создала директорию ```ski.plases```: *(рис 3.1)*
 
-    ```ls```
+    ```sudo mkdir ski.plases```
 
-![]()
+![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab06/Screenshot/3.png?raw=true![image](https://user-images.githubusercontent.com/83212205/117856986-1b7a8500-b2ae-11eb-82fe-2be7dede2545.png))
  
 *Рис 3.1. Создание директории ```ski.plases```*
 
  
 4.	Переместила файл ```equipment``` в каталог ```ski.plases``` *(рис 4.1)*: 
 
-``` cd /var/spool```
+``` cd /home```
 
-```ls```
+```sudo mv equipment ski.plases```
 
-![]()
+![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab06/Screenshot/4.png?raw=true![image](https://user-images.githubusercontent.com/83212205/117857060-30efaf00-b2ae-11eb-993c-b5f0c5e6b6d8.png))
 
 *Рис 4.1. Перемещение файла в каталог*
 
