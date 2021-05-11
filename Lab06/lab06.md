@@ -213,31 +213,35 @@ header-includes:
 
 8.	Переместила файлы ```~/ski.plases/equiplist``` и ```equiplist2``` в каталог ```~/ski.plases/equipment```: *(рис 8.1)*
 
-```sudo mkdir letters memos misk```
+```sudo mv equiplist equiplist2 equipment```
 
  
- ![]()
+ ![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab06/Screenshot/10.png?raw=true![image](https://user-images.githubusercontent.com/83212205/117860186-d35d6180-b2b1-11eb-8027-0e68468ff45e.png))
  
 *Рис 8.1. Перемещение файлов*
 
 
 9.  Создала и переместила каталог ```~/newdir``` в каталог ```~/ski.plases``` и назвала его ```plans```: *(рис 9.1, 9.2, 9.3)*
 
-```sudo rm -r newdir```
+```cd /home```
 
-```ls```
+```sudo mkdir newdir```
  
- ![]()
+ ![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab06/Screenshot/11.png?raw=true![image](https://user-images.githubusercontent.com/83212205/117860305-f5ef7a80-b2b1-11eb-8d24-732d2900f34e.png))
  
 *Рис 9.1. Создание каталога*
  
+ ```sudo mv newdir ski.plases```
  
- ![]()
+ ![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab06/Screenshot/12.png?raw=true![image](https://user-images.githubusercontent.com/83212205/117860391-10c1ef00-b2b2-11eb-9e30-886687ec1341.png))
  
 *Рис 9.2. Перемещение в другой каталог*
 
+```cd ski.plases```
+
+```sudo mv newdir plans```
  
- ![]()
+ ![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab06/Screenshot/13.png?raw=true![image](https://user-images.githubusercontent.com/83212205/117860500-2d5e2700-b2b2-11eb-8ea6-ab0d99669e37.png))
  
 *Рис 9.3. Переименование каталога*
 
@@ -246,43 +250,55 @@ header-includes:
 
 -  ```drwxr--r--  ...  australia```
 
-``` ls -a``` *(рис 10.3)*
+```sudo touch australia``` *(рис 10.1)*
 
-![]()
+```sudo chmod 744 australia```
 
-*Рис 10.1 и 10.2. *
+![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab06/Screenshot/14.png?raw=true![image](https://user-images.githubusercontent.com/83212205/117860601-4bc42280-b2b2-11eb-876a-5f40d1fa4672.png))
 
-
--  ```drwx--x--x. ...  play```
-
-
-![]()
-
-*Рис 10.1 и 10.2. *
+*Рис 10.1. Определение опции команды ```chmod```*
 
 
--  ```-r-xr--r--  ...  my_os```
+-  ```drwx--x--x. ...  play``` *(рис 10.2)*
+
+```sudo touch play```
+
+```sudo chmod 711 play```
+
+![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab06/Screenshot/15.png?raw=true![image](https://user-images.githubusercontent.com/83212205/117860835-9180eb00-b2b2-11eb-88e3-bc35c1cc581b.png))
+
+*Рис 10.2. Определение опции команды ```chmod```*
 
 
-![]()
+-  ```-r-xr--r--  ...  my_os``` *(рис 10.3)*
 
-*Рис 10.3.*
+```sudo touch my_os```
+
+```sudo chmod 154 my_os```
+
+![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab06/Screenshot/16.png?raw=true![image](https://user-images.githubusercontent.com/83212205/117861089-dc9afe00-b2b2-11eb-9ded-d792948a7a4c.png))
+
+*Рис 10.3. Определение опции команды ```chmod```*
 
 
--  ```-rw-rw-r--  ...  feathers```
+-  ```-rw-rw-r--  ...  feathers``` *(рис 10.4)*
 
+```sudo touch feathers```
 
-![]()
+```sudo chmod 664 feathers```
 
-*Рис 10.3.*
+![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab06/Screenshot/17.png?raw=true![image](https://user-images.githubusercontent.com/83212205/117861208-fdfbea00-b2b2-11eb-97bd-db1053d792ab.png))
+
+*Рис 10.4. Определение опции команды ```chmod```*
 
 
 11.	Просмотрела содержимое файла ```/etc/xfce4``` *(рис 11.1)*: 
 
-```cd /etc/xfce4```;
+```cd /etc/xfce4```
 
+```ls```
 
-![]()
+![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab06/Screenshot/18.png?raw=true![image](https://user-images.githubusercontent.com/83212205/117861371-2d125b80-b2b3-11eb-9c41-0ac9215fd2bd.png))
 
 *Рис 11.1. Просмотр содержимого файла*
 
@@ -290,40 +306,57 @@ header-includes:
 12.	 Скопировала файл ```~/feathers``` в файл ```~/file.old```: 
 
  
- ```man cd```; *(рис 12.1)*
+ ```sudo touch file.old```; *(рис 12.1)*
 
+ ```sudo cp feathers file.old```
  
- ![]()
+ ![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab06/Screenshot/19.png?raw=true![image](https://user-images.githubusercontent.com/83212205/117861459-46b3a300-b2b3-11eb-86b4-e4b77b5ad2d9.png))
  
  *Рис 12.1. Скопировала файл*
  
  
 13.	Переместила файл ```~/file.old``` в каталог ```~/play```: *(рис 13.1)*
  
- ```history```
+ ```sudo mv feathers play```
  
- ![]()
+ ![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab06/Screenshot/20.png?raw=true![image](https://user-images.githubusercontent.com/83212205/117861601-69de5280-b2b3-11eb-91cf-eaf85db16d07.png))
  
  
 *Рис 13.1. Перемещение файла в каталог*
 
 14. Скопировала каталог ```~/play``` в каталог ```~/fun``` *(рис 14.1)*:
 
-![]()
+```sudo mkdir fun```
+
+```sudo cp -r play fun```
+
+![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab06/Screenshot/21.png?raw=true![image](https://user-images.githubusercontent.com/83212205/117861692-88dce480-b2b3-11eb-9dd7-a3713471219b.png))
 
 *Рис 14.1. Копирование каталога в каталог*
 
 
 15. Переместила каталог ```~/fun``` в каталог ```~/play``` и назвала его ```games``` *(рис 15.1)*:
 
-![]()
+```sudo mv fun play```
+
+```ls play```
+
+```cd play```
+
+```sudo mv fun games```
+
+```ls```
+
+![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab06/Screenshot/22.png?raw=true![image](https://user-images.githubusercontent.com/83212205/117861819-b1fd7500-b2b3-11eb-8d47-503cbede5101.png))
 
 *Рис 15.1. Перемещение каталога в каталог и переименование*
 
 
 16. Лишила владельца файла ```~/feathers``` права на чтение *(рис 16.1)*:
 
-![]()
+```sudo chmod -r feathers```
+
+![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab06/Screenshot/25.png?raw=true![image](https://user-images.githubusercontent.com/83212205/117862047-ff79e200-b2b3-11eb-9d45-c8f490e65a76.png))
 
 *Рис 16.1. Лишение владельца права на чтение*
 
@@ -332,33 +365,38 @@ header-includes:
 
 ``` cat feathers```
 
-![]()
+![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab06/Screenshot/23.png?raw=true![image](https://user-images.githubusercontent.com/83212205/117861967-e3764080-b2b3-11eb-82be-6475f492b98d.png))
 
 *Рис 17.1. Попытка просмотра файла*
 
 18. Дала владельцу файла ```~/feathers``` право на чтение *(рис 18.1)*:
 
-![]()
 
-*Рис 18.1. Получение права на чтение*
+```sudo chmod +r feathers```
 
 
 19. Лишила владельца каталога ```~/play``` права на выполнение *(рис 19.1)*:
 
-![]()
+```sudo chmod -x play```
+
+![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab06/Screenshot/26.png?raw=true![image](https://user-images.githubusercontent.com/83212205/117862107-1a4c5680-b2b4-11eb-935d-a26bfa5fabfb.png))
 
 *Рис 19.1. Лишение права на выполнение*
 
 20. Попыталась перейти в каталог ```~/play```, на что система выдала ошибку, так как нет прав на выполнение у владельца *(рис 20.1)*:
 
-![]()
+```cd play```
+
+![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab06/Screenshot/27.png?raw=true![image](https://user-images.githubusercontent.com/83212205/117862172-2cc69000-b2b4-11eb-9da9-7dc0b40d0e42.png))
 
 *Рис 20.1. Попытка перейти в каталог без прав на выполнение*
 
 
 21. Дала владельцу каталога ```~/play``` право на выполнение *(рис 18.1)*:
 
-![]()
+```sudo chmod +x play```
+
+![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab06/Screenshot/28.png?raw=true![image](https://user-images.githubusercontent.com/83212205/117862230-3ea83300-b2b4-11eb-9832-2c1e24217f08.png))
 
 *Рис 18.1. Получение права на выполнение*
 
@@ -368,36 +406,36 @@ header-includes:
  
  ```man mount```; *(рис 12.1 и рис 12.2)*
  
- ![]()
+ ![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab06/Screenshot/29.png?raw=true![image](https://user-images.githubusercontent.com/83212205/117862317-57b0e400-b2b4-11eb-9e0b-6815dae99a32.png))
  
- ![]()
+ ![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab06/Screenshot/30.png?raw=true![image](https://user-images.githubusercontent.com/83212205/117862341-60091f00-b2b4-11eb-996f-6840b015bcff.png))
  
  *Рис 12.1 и 12.2. Команда man mount*
  
  
  ```man fsck```; *(рис 12.3 и рис 12.4)*
  
- ![]()
+ ![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab06/Screenshot/31.png?raw=true![image](https://user-images.githubusercontent.com/83212205/117862387-6a2b1d80-b2b4-11eb-96fa-8c0e232faed9.png))
  
- ![]()
+ ![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab06/Screenshot/32.png?raw=true![image](https://user-images.githubusercontent.com/83212205/117862416-71522b80-b2b4-11eb-970f-6aac9b3099c8.png))
  
  *Рис 12.3 и 12.4. Команда man fsck*
  
  
  ```man mkfs```; *(рис 12.5 и рис 12.6 )*
  
- ![]()
+ ![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab06/Screenshot/33.png?raw=true![image](https://user-images.githubusercontent.com/83212205/117862447-79aa6680-b2b4-11eb-9b7f-9e312919eb0f.png))
  
- ![]()
+ ![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab06/Screenshot/34.png?raw=true![image](https://user-images.githubusercontent.com/83212205/117862482-8333ce80-b2b4-11eb-9f7c-6850f1ff684b.png))
  
  *Рис 12.5 и 12.6. Команда man mkfs*
  
  
  ```man kill```; *(рис 12.7 и 12.8)*
  
- ![]()
+ ![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab06/Screenshot/35.png?raw=true![image](https://user-images.githubusercontent.com/83212205/117862524-8b8c0980-b2b4-11eb-8b08-56a9a49fc2e2.png))
  
- ![]()
+ ![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab06/Screenshot/36.png?raw=true![image](https://user-images.githubusercontent.com/83212205/117862550-95157180-b2b4-11eb-90ba-e958c3ecea8e.png))
  
  *Рис 12.7 и 12.8. Команда man kill*
 
