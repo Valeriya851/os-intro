@@ -119,9 +119,13 @@ header-includes:
 Один из примеров:
 
 - ```cd```
+
   ```touch may```
+  
   ```ls -l may```
+  
   ```chmod u+x may```
+  
   ```ls -l may```
 
    ![]()
