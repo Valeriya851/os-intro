@@ -406,6 +406,8 @@ header-includes:
  
  ```man mount```; *(рис 12.1 и рис 12.2)*
  
+ Присоединение файловой системы, расположенной на запоминающем устройстве, к основному дереву каталогов называется монтированном устройства. Монтирование устройства осуществляется командой ```mount```.
+ 
  ![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab06/Screenshot/29.png?raw=true![image](https://user-images.githubusercontent.com/83212205/117862317-57b0e400-b2b4-11eb-9e0b-6815dae99a32.png))
  
  ![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab06/Screenshot/30.png?raw=true![image](https://user-images.githubusercontent.com/83212205/117862341-60091f00-b2b4-11eb-996f-6840b015bcff.png))
@@ -415,6 +417,8 @@ header-includes:
  
  ```man fsck```; *(рис 12.3 и рис 12.4)*
  
+ ```fsck``` ("file system consistency check") — команда UNIX, которая проверяет и устраняет ошибки в файловой системе.
+
  ![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab06/Screenshot/31.png?raw=true![image](https://user-images.githubusercontent.com/83212205/117862387-6a2b1d80-b2b4-11eb-96fa-8c0e232faed9.png))
  
  ![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab06/Screenshot/32.png?raw=true![image](https://user-images.githubusercontent.com/83212205/117862416-71522b80-b2b4-11eb-970f-6aac9b3099c8.png))
@@ -424,6 +428,8 @@ header-includes:
  
  ```man mkfs```; *(рис 12.5 и рис 12.6 )*
  
+ ```mkfs``` используется для создания файловой системы Linux на некотором устройстве, обычно в разделе жёсткого диска. В качестве аргумента filesys для файловой системы может выступать или название устройства (например, ```/dev/hda1```, ```/dev/sdb2```) или точка монтирования (например, ```/```, ```/usr```, ```/home```).
+ 
  ![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab06/Screenshot/33.png?raw=true![image](https://user-images.githubusercontent.com/83212205/117862447-79aa6680-b2b4-11eb-9b7f-9e312919eb0f.png))
  
  ![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab06/Screenshot/34.png?raw=true![image](https://user-images.githubusercontent.com/83212205/117862482-8333ce80-b2b4-11eb-9f7c-6850f1ff684b.png))
@@ -432,6 +438,8 @@ header-includes:
  
  
  ```man kill```; *(рис 12.7 и 12.8)*
+ 
+ Команда ```Kill``` посылает указанный сигнал указанному процессу. Если не указано ни одного сигнала, посылается сигнал SIGTERM. Сигнал SIGTERM завершает лишь те процессы, которые не обрабатывают его приход. Для других процессов может быть необходимым послать сигнал SIGKILL, поскольку этот сигнал перехватить невозможно.
  
  ![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab06/Screenshot/35.png?raw=true![image](https://user-images.githubusercontent.com/83212205/117862524-8b8c0980-b2b4-11eb-8b08-56a9a49fc2e2.png))
  
