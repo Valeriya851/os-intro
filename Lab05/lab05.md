@@ -6,11 +6,7 @@ title: "Отчет по второй лабораторной работе №5"
 author: "Тулеева Валерия, НБИбд-01-20"
 
 # Formatting
-toc-title: "Содержание"
-toc: true # Table of contents
 toc_depth: 2
-lof: true # List of figures
-lot: true # List of tables
 fontsize: 12pt
 linestretch: 1.5
 papersize: a4paper
