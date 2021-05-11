@@ -170,36 +170,44 @@ header-includes:
 
 5.	Переименовала файл ```~/ski.plases/equipment``` в ```~/ski.plases/equiplist```: *(рис 5.1)*
 
-```cd /home``` и ```ls```
+```sudo mv equipment equiplist``` 
  
- ![]()
+ ![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab06/Screenshot/5.png?raw=true![image](https://user-images.githubusercontent.com/83212205/117857897-179b3280-b2af-11eb-96b8-6d2764a9b711.png))
  
 *Рис 5.1. Переименовала файл*
 
 
 6.	Создала в домашнем каталоге файл ```abc1``` и скопировала его в каталог ```~/ski.plases```, назвав его ```equiplist2```: *(рис 6.1, 6.2, 6.3)*
 
-```sudo mkdir newdir```
+```sudo touch abc1```
 
- ![]()
+ ![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab06/Screenshot/6.png?raw=true![image](https://user-images.githubusercontent.com/83212205/117857987-3699c480-b2af-11eb-945a-422f3ad06546.png))
  
 *Рис 6.1. Создала файл*
 
- ![]()
+
+```sudo cp abc1 ski.plases```
+
+
+ ![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab06/Screenshot/7.png?raw=true![image](https://user-images.githubusercontent.com/83212205/117858045-474a3a80-b2af-11eb-93e9-8659454861eb.png))
  
 *Рис 6.2. Скопировала его*
 
- ![]()
+```cd ski.plases```
+
+```sudo mv abc1 equiplist2```
+
+
+ ![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab06/Screenshot/8.png?raw=true![image](https://user-images.githubusercontent.com/83212205/117858168-6b0d8080-b2af-11eb-9f55-e43045d62156.png))
  
 *Рис 6.3. Переименовала файл*
 
 7.	Создала каталог с именем ```equipment```  в каталоге ```~/ski.plases```: *(рис 7.1)*
 
-```cd newdir```;
-
-```sudo mkdir morefun```
+```sudo mkdir equipment```
  
- ![]()
+ 
+ ![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab06/Screenshot/9.png?raw=true![image](https://user-images.githubusercontent.com/83212205/117858309-942e1100-b2af-11eb-8d63-7ae7e63218a8.png))
  
 *Рис 7.1. Создание нового каталога в другом каталоге*
 
