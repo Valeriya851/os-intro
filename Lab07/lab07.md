@@ -215,6 +215,8 @@ header-includes:
 
 Запустила в фоновом режиме процесс, который  добавил в файл ```logfile``` имена которые начинаются с ```log```: *(рис 6.2)*
 
+```find ~ -name "log*" -print > logfile &```
+
 ![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab07/Screenshot/15.png?raw=true![image](https://user-images.githubusercontent.com/83212205/118135604-0d02a980-b425-11eb-988f-962cb4e2e1bf.png))
 
 ![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab07/Screenshot/16.png?raw=true![image](https://user-images.githubusercontent.com/83212205/118135662-1be95c00-b425-11eb-86ef-bf8e2738eed7.png))
@@ -229,7 +231,7 @@ header-includes:
  
 *Рис 7.1. Удаление файла*
 
-8.	: *(рис 8.1)*
+8.	Запустила в фоновом режиме редактор ```gedit```: *(рис 8.1 и 8.2)*
 
 ```gedit &```
  
@@ -237,30 +239,36 @@ header-includes:
  
  ![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab07/Screenshot/19.png?raw=true![image](https://user-images.githubusercontent.com/83212205/118136885-68816700-b426-11eb-96c6-c1d4aee71d70.png))
  
-*Рис 8.1. *
+*Рис 8.1 и 8.2. Запуск редактора в фоновом режиме*
 
 
-9.  : *(рис 9.1)*
+9.  Определила идентификатор процесса ```gedit```, мспользуя команду ```ps``` и фильтр ```grep```:
 
-```ps aux```
+Для получения информации о процессах, управляемых вами и запущенных (работающих или остановленных) на вашем терминале, используйте опцию ```aux```.
+
+```ps aux```  *(рис 9.1 и 9.2)*
 
  ![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab07/Screenshot/21.png?raw=true![image](https://user-images.githubusercontent.com/83212205/118137110-a67e8b00-b426-11eb-8c05-ad1f535678ce.png))
  
  ![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab07/Screenshot/22.png?raw=true![image](https://user-images.githubusercontent.com/83212205/118137288-db8add80-b426-11eb-9cdc-56995403df6e.png))
  
-*Рис 9.1. *
+*Рис 9.1 и 9.2. Получение информации о процессах, управляемых вами и запущенных на вашем терминале*
+ 
+ Команда ```ps``` используется для получения информации о процессах.
  
 ```ps``` *(рис 9.2)*
 
 ![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab07/Screenshot/23.png?raw=true![image](https://user-images.githubusercontent.com/83212205/118137499-1260f380-b427-11eb-9aef-1bc6d94312c3.png))
 
-*Рис 9.2. *
+*Рис 9.2. Получение информации о процессах*
+
+Фильтр ```grep```:
 
 ```ps aux | grep gedit```*(рис 9.3)*
 
 ![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab07/Screenshot/24.png?raw=true![image](https://user-images.githubusercontent.com/83212205/118137606-36243980-b427-11eb-9b0e-2a90f2892756.png))
 
-*Рис 9.3. *
+*Рис 9.3. Фильтр ```grep```*
 
 10.	 С помощью команды ```man``` определила опции команды ```kill```: 
 
@@ -272,9 +280,9 @@ header-includes:
 
 *Рис 10.1. Команда man kill*
 
-Завершила процесс с помощью команды ```kill```:
+Завершила процесс ```gedit``` с помощью команды ```kill```:
 
-```kill %gedit```
+```kill %gedit```  *(рис 10.2)*
 
 ![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab07/Screenshot/27.png?raw=true![image](https://user-images.githubusercontent.com/83212205/118138128-c793ab80-b427-11eb-806c-5f97283955df.png))
 
@@ -303,16 +311,19 @@ header-includes:
  *Рис 12.1 и 12.2. Команда man du*
  
 
-13.	: *(рис 13.1 и рис 13.2, рис 13.3, рис 13.4)*
+13.	Выполнила команды ```df``` и ```du```: 
+
+Команда ```df``` показывает размер каждого смонтированного раздела диска.
  
- ```df -vi```
+ ```df -vi``` *(рис 13.1 и 13.2)*
  
  ![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab07/Screenshot/32.png?raw=true![image](https://user-images.githubusercontent.com/83212205/118139018-c6af4980-b428-11eb-894f-313a142fbd6a.png))
  
  ![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab07/Screenshot/33.png?raw=true![image](https://user-images.githubusercontent.com/83212205/118139077-d3cc3880-b428-11eb-9c52-e0e781a9ccc2.png))
  
-*Рис 13.1 и 13.2. *
+*Рис 13.1 и 13.2. Размер каждого смонтированного раздела диска*
 
+Команда ```du``` показывает число килобайт, используемое каждым файлом или каталогом.
 
 ```du -a ~/```
 
@@ -320,7 +331,7 @@ header-includes:
 
 ![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab07/Screenshot/35.png?raw=true![image](https://user-images.githubusercontent.com/83212205/118139262-ffe7b980-b428-11eb-9ff6-c97524ae64de.png))
 
-*Рис 13.3 и 13.4. *
+*Рис 13.3 и 13.4. Число килобайт, используемое домашним каталогом*
 
 14. С помощью команды ```man``` определила опции команды ```find```: 
 
@@ -332,7 +343,9 @@ header-includes:
 
 *Рис 14.1 и 14.2. Команда man find*
 
-15. С помощью команды ```man find``` определила 
+15. С помощью команды ```man find``` определила операцию, которая выводит имена всех директорий, имеющихся в домашнем каталоге:
+
+```-type``` - тип искомого, ```d``` - каталог;
 
 ```find -type d -print``` *(рис 15.1 и 15.2)*
 
@@ -340,7 +353,7 @@ header-includes:
 
 ![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab07/Screenshot/39.png?raw=true![image](https://user-images.githubusercontent.com/83212205/118139938-b0ee5400-b429-11eb-9629-1d9e60479581.png))
 
-*Рис 15.1 и 15.2. *
+*Рис 15.1 и 15.2. Вывод имен всех директорий, имеющихся в домашнем каталоге*
 
 
 # **Вывод:**
