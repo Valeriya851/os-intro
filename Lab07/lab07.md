@@ -121,103 +121,113 @@ header-includes:
 
 # **Описание результатов выполнения задания:**
 
-1.  *(рис 1.1)*:
+1.  Записала в файл ```file.txt``` названия файлов, содержащихся в каталоге ```/etc``` *(рис 1.1)*:
 
-```ls```
+```cat >> file.txt```
 
-   ![]()
+   ![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab07/Screenshot/1.png?raw=true![image](https://user-images.githubusercontent.com/83212205/118131574-851aa080-b420-11eb-814d-57d7a4e75e13.png))
    
-*Рис 1.1. Определение имени моего домашнего каталога*
-
-2.	 *(рис 2.1)*:
-
-```cd /tmp```
+   ![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab07/Screenshot/2.png?raw=true![image](https://user-images.githubusercontent.com/83212205/118131716-ae3b3100-b420-11eb-986f-3ef8f87ef6b5.png))
+   
+ *Рис 1.1. Запись файлов из каталога ```/etc``` в файл*
  
- ![]()
+ Дописала в файл названия файлов, содержащихся в домашнем каталоге:
  
-*Рис 2.1. Переход в каталог ```/tmp```*
-
-3.	: *(рис 3.1)*
-
-Команда ```ls``` используется для просмотра содержимого каталога.
-
-    ```ls```
-
-Использовала команду ls с различными опциями.
-
-![]()
+ ```cat >> file.txt```
  
-*Рис 3.1. Cодержимое каталога ```/tmp```*
+   ![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab07/Screenshot/3.png?raw=true![image](https://user-images.githubusercontent.com/83212205/118131749-bb582000-b420-11eb-8313-441d446eb0b7.png))
+   
+*Рис 1.2. Добавление в файл ```file.txt``` файлов из домашнего каталога*
 
-Некоторые файлы в операционной системе скрыты от просмотра и обычно используются для настройки рабочей среды. Имена таких файлов начинаются с точки. Для того, чтобы отобразить имена скрытых файлов, необходимо использовать команду ```ls``` с опцией ```a```:
+2.	 Вывела имена всех файлов из ```file.txt```, имеющих расширение ```.conf```*(рис 2.1)*:
 
-```ls -a``` *(рис 3.2 и рис 3.3)*
+```grep .conf file.txt```
  
- ![]()
+ ![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab07/Screenshot/4.png?raw=true![image](https://user-images.githubusercontent.com/83212205/118132085-1d188a00-b421-11eb-8432-16e1afbac34e.png))
  
- ![]()
+ ![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab07/Screenshot/5.png?raw=true![image](https://user-images.githubusercontent.com/83212205/118132136-2d306980-b421-11eb-87dd-c02a4329c93d.png))
  
-*Рис 3.2 и рис 3.3. Скрытые файлы каталога*
+*Рис 2.1. Вывод всех файлов имеющих расширение ```.conf```*
 
-Чтобы вывести на экран подробную информацию о файлах и каталогах, необходимо использовать опцию ```l```. При этом о каждом файле и каталоге будет выведена следующая информация:
-– тип файла,
-– право доступа,
-– число ссылок,
-– владелец,
-– размер,
-– дата последней ревизии, 
-– имя файла или каталога.
+3.	Записала выведенные имена в новый текстовый файл ```conf.txt```:
 
-```ls -l``` *(рис 3.4 и рис 3.5)*
+Создала текстовый файл: *(рис 3.1)*
 
- ![]()
+    ```touch conf.txt```
+
+![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab07/Screenshot/6.png?raw=true![image](https://user-images.githubusercontent.com/83212205/118132532-9c0dc280-b421-11eb-8ba2-46f197271ba2.png))
  
- ![]()
+*Рис 3.1. Создание текстового файла*
+
+Добавила имена файлов в новый файл: *(рис 3.2)*
  
- *Рис 3.4 рис 3.5. Подробная информация*
+ ![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab07/Screenshot/7.png?raw=true![image](https://user-images.githubusercontent.com/83212205/118132914-09215800-b422-11eb-94cf-fc70068c40ea.png))
+ 
+*Рис 3.2. Добавление в файл*
+
  
  
-4.	Определила ,есть ли в каталоге ```/var/spool``` подкаталог с именем ```cron``` *(рис 4.1)*: 
+4.	Определила, какие файлы в моем домашнем каталоге имеют имена, начинающиеся с символа **c**: 
 
-``` cd /var/spool```
+Первый вариант: 
 
-```ls```
+```find ~ -name "c*" -print``` *(рис 4.1)*
 
-![]()
+![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab07/Screenshot/8.png?raw=true![image](https://user-images.githubusercontent.com/83212205/118133733-fc513400-b422-11eb-9fdc-1077483b5dbf.png))
 
-*Рис 4.1. Подкаталог ```cron```*
+![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab07/Screenshot/9.png?raw=true![image](https://user-images.githubusercontent.com/83212205/118133813-13902180-b423-11eb-9a16-76e7070a97df.png))
 
-5.	Перешла в мой домашний каталог и вывела на экран его содержимое: *(рис 5.1)*
+*Рис 4.1. Нахождение файлов начинающихся с **c** *
 
-```cd /home``` и ```ls```
+Второй вариант: 
+
+```ls -l | grep c*``` *(рис 4.2)*
+
+![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab07/Screenshot/10.png?raw=true![image](https://user-images.githubusercontent.com/83212205/118134099-5d790780-b423-11eb-87f7-32c65f567970.png))
+
+![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab07/Screenshot/11.png?raw=true![image](https://user-images.githubusercontent.com/83212205/118134420-b8aafa00-b423-11eb-8055-44d722f36949.png))
+
+*Рис 4.2. Нахождение файлов начинающихся с **c** *
+
+
+5.	Вывела на экран (постранично) имена файлов из каталога ```/etc```, начинающихся с символа ```h```: *(рис 5.1)*
+
+Перешла в каталог ```/etc```:
+
+``` cd /etc```
+
+```ls -l h* |less```
  
- ![]()
+ ![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab07/Screenshot/12.png?raw=true![image](https://user-images.githubusercontent.com/83212205/118134653-fdcf2c00-b423-11eb-9a62-02fc4c340044.png))
  
-*Рис 5.1. Перешла в ```/home``` и вывела содержимое*
-
-Определила, кто является владельцем файлов и подкаталогов *(рис 5.2)*:
-
-![]()
-
-*Рис 5.2. Определила кто владелец*
-
-6.	В домашнем каталоге создала новый каталог с именем ```newdir```: *(рис 6.1)*
-
-```sudo mkdir newdir```
-
- ![]()
+ ![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab07/Screenshot/13.png?raw=true![image](https://user-images.githubusercontent.com/83212205/118134821-2820e980-b424-11eb-8d50-de80699b2c99.png))
  
-*Рис 6.1. Создание нового каталога*
+*Рис 5.1. Вывод на экран имен файлов из каталога ```/etc```, начиняющихся с символа ```h```*
 
-7.	В каталоге ```~/newdir``` создайте новый каталог с именем ```morefun```: *(рис 7.1)*
 
-```cd newdir```;
+6.	Создала файл ```logfile``` и запустила в фоновом режиме процесс, который записал в новый файл имена, которые начинаются с ```log```: 
 
-```sudo mkdir morefun```
+```touch logfile``` *(рис 6.1)*
+
+ ![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab07/Screenshot/14.png?raw=true![image](https://user-images.githubusercontent.com/83212205/118135345-b8f7c500-b424-11eb-8fd7-5bd3afa1d1ac.png))
  
- ![]()
+*Рис 6.1. Создание файла*
+
+Запустила в фоновом режиме процесс, который  добавил в файл ```logfile``` имена которые начинаются с ```log```: *(рис 6.2)*
+
+![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab07/Screenshot/15.png?raw=true![image](https://user-images.githubusercontent.com/83212205/118135604-0d02a980-b425-11eb-988f-962cb4e2e1bf.png))
+
+![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab07/Screenshot/16.png?raw=true![image](https://user-images.githubusercontent.com/83212205/118135662-1be95c00-b425-11eb-86ef-bf8e2738eed7.png))
+
+*Рис 6.2. Запуск в фоновом режиме процесса*
+
+7.	Удалила файл ```logfile```: *(рис 7.1)*
+
+```rm -r logfile```
  
-*Рис 7.1. Создание нового каталога*
+ ![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab07/Screenshot/17.png?raw=true![image](https://user-images.githubusercontent.com/83212205/118135913-5c48da00-b425-11eb-854a-cc01e7676e8f.png))
+ 
+*Рис 7.1. Удаление файла*
 
 8.	В домашнем каталоге создала одной командой три новых каталога с именами letters, memos, misk. Затем удалила эти каталоги одной командой.: *(рис 8.1 и рис 8.2)*
 
