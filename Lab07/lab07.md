@@ -283,13 +283,13 @@ header-includes:
 
 11.	С помощью команды ```man``` определила опции команды ```df```: 
 
-```man df``` *(рис 11.1)*
+```man df``` *(рис 11.1 и 11.2)*
 
 ![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab07/Screenshot/28.png?raw=true![image](https://user-images.githubusercontent.com/83212205/118138323-0164b200-b428-11eb-9e84-b26f7fecfea8.png))
 
 ![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab07/Screenshot/29.png?raw=true![image](https://user-images.githubusercontent.com/83212205/118138438-23f6cb00-b428-11eb-858b-643a68403195.png))
 
-*Рис 11.1. Команда man df*
+*Рис 11.1 и 11.2. Команда man df*
 
 
 12.	 Используя команду ```man``` для просмотра описания команды ```du```: 
@@ -303,34 +303,44 @@ header-includes:
  *Рис 12.1 и 12.2. Команда man du*
  
 
-13.	Используя информацию, полученную при помощи команды history, выполнила модификацию и исполнение нескольких команд из буфера команд: *(рис 13.1 и рис 13.2, рис 13.3, рис 13.4)*
+13.	: *(рис 13.1 и рис 13.2, рис 13.3, рис 13.4)*
  
- ```history```
+ ```df -vi```
  
- ![]()
+ ![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab07/Screenshot/32.png?raw=true![image](https://user-images.githubusercontent.com/83212205/118139018-c6af4980-b428-11eb-894f-313a142fbd6a.png))
  
- ![]()
+ ![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab07/Screenshot/33.png?raw=true![image](https://user-images.githubusercontent.com/83212205/118139077-d3cc3880-b428-11eb-9c52-e0e781a9ccc2.png))
  
-*Рис 13.1 и 13.2. История*
+*Рис 13.1 и 13.2. *
 
 
-**Модификация**
+```du -a ~/```
 
-```!1385:s/alF/F```
+![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab07/Screenshot/34.png?raw=true![image](https://user-images.githubusercontent.com/83212205/118139206-f3636100-b428-11eb-8aca-503283d19755.png))
 
-![]()
+![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab07/Screenshot/35.png?raw=true![image](https://user-images.githubusercontent.com/83212205/118139262-ffe7b980-b428-11eb-9ff6-c97524ae64de.png))
 
-*Рис 13.3. Модификация*
+*Рис 13.3 и 13.4. *
 
+14. С помощью команды ```man``` определила опции команды ```find```: 
 
-**Исполнение нескольких команд из буфера команд**
+```man find``` *(рис 14.1 и 14.2)*
 
-```cd; ls; pwd```
+![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab07/Screenshot/36.png?raw=true![image](https://user-images.githubusercontent.com/83212205/118139558-4b01cc80-b429-11eb-86ff-6a5c78c5b4fd.png))
 
-![]()
+![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab07/Screenshot/37.png?raw=true![image](https://user-images.githubusercontent.com/83212205/118139589-535a0780-b429-11eb-87ff-5f8f956a89bd.png))
 
-*Рис 13.4. Исполнение нескольких команд из буфера команд*
+*Рис 14.1 и 14.2. Команда man find*
 
+15. С помощью команды ```man find``` определила 
+
+```find -type d -print``` *(рис 15.1 и 15.2)*
+
+![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab07/Screenshot/38.png?raw=true![image](https://user-images.githubusercontent.com/83212205/118139896-a469fb80-b429-11eb-8afb-25709ed1b30f.png))
+
+![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab07/Screenshot/39.png?raw=true![image](https://user-images.githubusercontent.com/83212205/118139938-b0ee5400-b429-11eb-9629-1d9e60479581.png))
+
+*Рис 15.1 и 15.2. *
 
 
 # **Вывод:**
