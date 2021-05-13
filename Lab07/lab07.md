@@ -153,7 +153,7 @@ header-includes:
 
 Создала текстовый файл: *(рис 3.1)*
 
-    ```touch conf.txt```
+```touch conf.txt```
 
 ![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab07/Screenshot/6.png?raw=true![image](https://user-images.githubusercontent.com/83212205/118132532-9c0dc280-b421-11eb-8ba2-46f197271ba2.png))
  
