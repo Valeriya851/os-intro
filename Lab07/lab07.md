@@ -225,120 +225,83 @@ header-includes:
 
 ```rm -r logfile```
  
- ![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab07/Screenshot/17.png?raw=true![image](https://user-images.githubusercontent.com/83212205/118135913-5c48da00-b425-11eb-854a-cc01e7676e8f.png))
+ ![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab07/Screenshot/18.png?raw=true![image](https://user-images.githubusercontent.com/83212205/118136743-41c33080-b426-11eb-9173-feae02117f55.png))
  
 *Рис 7.1. Удаление файла*
 
-8.	В домашнем каталоге создала одной командой три новых каталога с именами letters, memos, misk. Затем удалила эти каталоги одной командой.: *(рис 8.1 и рис 8.2)*
+8.	: *(рис 8.1)*
 
-```sudo mkdir letters memos misk```
-
+```gedit &```
  
- ![]()
+ ![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab07/Screenshot/20.png?raw=true![image](https://user-images.githubusercontent.com/83212205/118137030-8d75da00-b426-11eb-93aa-26c6431b06bb.png))
  
-*Рис 8.1. Создала три каталога*
-
-```sudo rm -r letters memos misk```
-
-
-![]()
-
-*Рис 8.2. Удалила три каталога*
+ ![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab07/Screenshot/19.png?raw=true![image](https://user-images.githubusercontent.com/83212205/118136885-68816700-b426-11eb-96c6-c1d4aee71d70.png))
+ 
+*Рис 8.1. *
 
 
-9.  Удалила ранее созданный каталог ```~/newdir``` командой ```rm```. Проверила, был ли каталог удалён.: *(рис 9.1)*
+9.  : *(рис 9.1)*
 
-```sudo rm -r newdir```
+```ps aux```
 
-```ls```
+ ![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab07/Screenshot/21.png?raw=true![image](https://user-images.githubusercontent.com/83212205/118137110-a67e8b00-b426-11eb-8c05-ad1f535678ce.png))
  
- ![]()
+ ![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab07/Screenshot/22.png?raw=true![image](https://user-images.githubusercontent.com/83212205/118137288-db8add80-b426-11eb-9cdc-56995403df6e.png))
  
-*Рис 9.1. Удалила каталог и проверила, был ли он удален*
+*Рис 9.1. *
  
+```ps``` *(рис 9.2)*
 
-10.	 С помощью командыman определила, какую опцию команды ```ls``` нужно использовать для просмотра содержимого не только указанного каталога, но и подката-
-логов, входящих в него *(рис 10.1 и 10.2)*: 
+![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab07/Screenshot/23.png?raw=true![image](https://user-images.githubusercontent.com/83212205/118137499-1260f380-b427-11eb-9aef-1bc6d94312c3.png))
 
-```man ls```;
+*Рис 9.2. *
 
-``` ls -a``` *(рис 10.3)*
+```ps aux | grep gedit```*(рис 9.3)*
 
-![]()
+![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab07/Screenshot/24.png?raw=true![image](https://user-images.githubusercontent.com/83212205/118137606-36243980-b427-11eb-9b0e-2a90f2892756.png))
 
-![]()
+*Рис 9.3. *
 
-*Рис 10.1 и 10.2. Команда man ls*
+10.	 С помощью команды ```man``` определила опции команды ```kill```: 
 
-![]()
+```man kill``` *(рис 10.1)*
 
-*Рис 10.3. Команда ld s -a*
+![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab07/Screenshot/25.png?raw=true![image](https://user-images.githubusercontent.com/83212205/118137912-8f8c6880-b427-11eb-89cb-37abc65abaeb.png))
+
+![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab07/Screenshot/26.png?raw=true![image](https://user-images.githubusercontent.com/83212205/118137951-97e4a380-b427-11eb-8df4-ac8b0439b4aa.png))
+
+*Рис 10.1. Команда man kill*
+
+Завершила процесс с помощью команды ```kill```:
+
+```kill %gedit```
+
+![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab07/Screenshot/27.png?raw=true![image](https://user-images.githubusercontent.com/83212205/118138128-c793ab80-b427-11eb-806c-5f97283955df.png))
+
+*Рис 10.2. Завершение процесса с помощью команды ```kill```*
 
 
-11.	С помощью команды ```man``` определила набор опций команды ```ls```, позволяющий отсортировать по времени последнего изменения выводимый список содержимого
-каталога с развёрнутым описанием файлов *(рис 11.1 и рис 11.2)*: 
+11.	С помощью команды ```man``` определила опции команды ```df```: 
 
-```man ls```;
+```man df``` *(рис 11.1)*
 
-```ls -alF``` *(рис 11.3)*
+![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab07/Screenshot/28.png?raw=true![image](https://user-images.githubusercontent.com/83212205/118138323-0164b200-b428-11eb-9e84-b26f7fecfea8.png))
 
-![]()
+![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab07/Screenshot/29.png?raw=true![image](https://user-images.githubusercontent.com/83212205/118138438-23f6cb00-b428-11eb-858b-643a68403195.png))
 
-![]()
+*Рис 11.1. Команда man df*
 
-*Рис 11.1 и 11.2. Команда man ls*
 
-![]()
-
-*Рис 11.3. Команда ls -alF*
-
-12.	 Используя команду ```man``` для просмотра описания следующих команд: ```cd```, ```pwd```, ```mkdir```, ```rmdir```, ```rm```. Пояснила основные опции этих команд: 
-
+12.	 Используя команду ```man``` для просмотра описания команды ```du```: 
  
- ```man cd```; *(рис 12.1)*
+ ```man du```; *(рис 12.1 и рис 12.2)*
  
- Нет справочной страницы для команды cd.
+ ![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab07/Screenshot/30.png?raw=true![image](https://user-images.githubusercontent.com/83212205/118138765-83ed7180-b428-11eb-9289-7ab05cdce7c7.png))
  
- ![]()
+ ![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab07/Screenshot/31.png?raw=true![image](https://user-images.githubusercontent.com/83212205/118138801-8cde4300-b428-11eb-8359-bfdea6208131.png))
  
- *Рис 12.1. Команда man cd*
+ *Рис 12.1 и 12.2. Команда man du*
  
- 
- ```man pwd```; *(рис 12.2 и рис 12.3)*
- 
- ![]()
- 
- ![]()
- 
- *Рис 12.4 и 12.5. Команда man pwd*
- 
- 
- ```man mkdir```; *(рис 12.6 и рис 12.7)*
- 
- ![]()
- 
- ![]()
- 
- *Рис 12.6 и 12.7. Команда man mkdir*
- 
- 
- ```man rmdir```; *(рис 12.8 и рис 12.9 )*
- 
- ![]()
- 
- ![]()
- 
- *Рис 12.8 и 12.9. Команда man rmdir*
- 
- 
- ```man rm```; *(рис 12.10 и 12.11)*
- 
- ![]()
- 
- ![]()
- 
- *Рис 12.10 и 12.11. Команда man rm*
-
 
 13.	Используя информацию, полученную при помощи команды history, выполнила модификацию и исполнение нескольких команд из буфера команд: *(рис 13.1 и рис 13.2, рис 13.3, рис 13.4)*
  
