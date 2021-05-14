@@ -213,13 +213,39 @@ header-includes:
 *Рис 5.8 и 5.9. Копирование файлов в каталог*
 
 
-6.	В домашнем каталоге создала новый каталог с именем ```newdir```: *(рис 6.1)*
+6.	С помощью соответствующих средств подменю ```Команда``` выполнила задания *(рис 6.1)*:
 
-```sudo mkdir newdir```
-
- ![]()
+ ![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab08/Screenshot/22.png?raw=true![image](https://user-images.githubusercontent.com/83212205/118295153-59211d00-b4fd-11eb-9d71-ff2c9c5e0ff1.png))
  
-*Рис 6.1. Создание нового каталога*
+*Рис 6.1. Подменю ```Команда```*
+
+- Нашла в файловой системе файл с заданными условиями (с расширением .cpp + строка main) *(рис 6.2 и 6.3)*:
+
+![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab08/Screenshot/23.png?raw=true![image](https://user-images.githubusercontent.com/83212205/118295683-f9774180-b4fd-11eb-957e-74092db3b31b.png))
+
+![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab08/Screenshot/24.png?raw=true![image](https://user-images.githubusercontent.com/83212205/118295772-0a27b780-b4fe-11eb-9230-8cc9bd0f8f7c.png))
+
+*Рис 6.2 и 6.3. Нахождение файла с заданными условиями*
+
+- История операций + выбор одной из них *(рис 6.4)*:
+
+![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab08/Screenshot/25.png?raw=true![image](https://user-images.githubusercontent.com/83212205/118296107-67bc0400-b4fe-11eb-9401-65b4df73e3af.png))
+
+*Рис 6.4. История*
+
+- Перешла в домашний каталог *(рис 6.5 и 6.6)*:
+
+![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab08/Screenshot/26.png?raw=true![image](https://user-images.githubusercontent.com/83212205/118296327-a6ea5500-b4fe-11eb-9b5c-baaba10b02b4.png))
+
+![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab08/Screenshot/27.png?raw=true![image](https://user-images.githubusercontent.com/83212205/118296389-b9fd2500-b4fe-11eb-8c5f-43cb0b683372.png))
+
+*Рис 6.5 и 6.6. Переход в домашний каталог*
+
+- Анализ файла ```profile``` и файла ```bash``` *(рис 6.7)*:
+
+![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab08/Screenshot/28.png?raw=true![image](https://user-images.githubusercontent.com/83212205/118296653-08122880-b4ff-11eb-8ff2-e5842313d71b.png))
+
+*Рис 6.7. Сравнение*
 
 7.	В каталоге ```~/newdir``` создайте новый каталог с именем ```morefun```: *(рис 7.1)*
 
