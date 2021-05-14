@@ -109,77 +109,109 @@ header-includes:
    
 *Рис 1.1 и 1.2. Изучение информации о команде ```mc```*
 
-2.	 Запустила из командной строки ```mc```, изучила структуру и меню *(рис 2.1)*:
+2.	 Запустила из командной строки ```mc```, изучила структуру и меню *(рис 2.1 и 2.2)*:
 
 ```mc```
  
  ![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab08/Screenshot/3.png?raw=true![image](https://user-images.githubusercontent.com/83212205/118288981-b2d21900-b4f6-11eb-8747-dade4a40fa78.png))
  
-*Рис 2.1. Вызов ```mc```*
-
-3.	: *(рис 3.1)*
-
-Команда ```ls``` используется для просмотра содержимого каталога.
-
-    ```ls```
-
-Использовала команду ls с различными опциями.
-
-![]()
+ ![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab08/Screenshot/4.png?raw=true![image](https://user-images.githubusercontent.com/83212205/118289891-a13d4100-b4f7-11eb-9d80-b071d42f38bc.png))
  
-*Рис 3.1. Cодержимое каталога ```/tmp```*
+*Рис 2.1 и 2.2. Вызов ```mc```*
 
-Некоторые файлы в операционной системе скрыты от просмотра и обычно используются для настройки рабочей среды. Имена таких файлов начинаются с точки. Для того, чтобы отобразить имена скрытых файлов, необходимо использовать команду ```ls``` с опцией ```a```:
+Меню пользователя *(рис 2.3)*:
 
-```ls -a``` *(рис 3.2 и рис 3.3)*
- 
- ![]()
- 
- ![]()
- 
-*Рис 3.2 и рис 3.3. Скрытые файлы каталога*
+![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab08/Screenshot/5.png?raw=true![image](https://user-images.githubusercontent.com/83212205/118290041-cdf15880-b4f7-11eb-8d00-2f7b6e527318.png))
 
-Чтобы вывести на экран подробную информацию о файлах и каталогах, необходимо использовать опцию ```l```. При этом о каждом файле и каталоге будет выведена следующая информация:
-– тип файла,
-– право доступа,
-– число ссылок,
-– владелец,
-– размер,
-– дата последней ревизии, 
-– имя файла или каталога.
+*Рис 2.3. Меню пользователя*
 
-```ls -l``` *(рис 3.4 и рис 3.5)*
 
- ![]()
- 
- ![]()
- 
- *Рис 3.4 рис 3.5. Подробная информация*
+3.	Выполнила несколько операций в ```mc```, используя управляющие клавиши: *(рис 3.1)*
+
+```F1``` Вызов контекстно-зависимой подсказки
+
+```F2``` Вызов пользовательского меню с возможностью создания и/или дополнения дополнительных функций
+
+```F3``` Просмотр содержимого файла, на который указывает подсветка в активной панели (без возможности редактирования)
+
+```F4``` Вызов встроенного в mc редактора для изменения содержания файла, на который указывает подсветка в активной панели
+
+```F5``` Копирование одного или нескольких файлов, отмеченных в первой (активной) панели, в каталог, отображаемый на второй панели
+
+```F6``` Перенос одного или нескольких файлов, отмеченных в первой (активной) панели, в каталог, отображаемый на второй панели
+
+```F7``` Создание подкаталога в каталоге, отображаемом в активной панели
+
+```F8``` Удаление одного или нескольких файлов (каталогов), отмеченных в первой (активной) панели файлов
+
+```F9``` Вызов меню mc
+
+```F10``` Выход из mc
  
  
-4.	Определила ,есть ли в каталоге ```/var/spool``` подкаталог с именем ```cron``` *(рис 4.1)*: 
+4.  Выполнила основные команды меню левой панели *(рис 4.1)*: `
 
-``` cd /var/spool```
+![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab08/Screenshot/8.png?raw=true![image](https://user-images.githubusercontent.com/83212205/118291348-51f81000-b4f9-11eb-8e17-4d5c3c853dc3.png))
 
-```ls```
+*Рис 4.1. Левая панель*
 
-![]()
+Информация о файле *(рис 4.2)*:
 
-*Рис 4.1. Подкаталог ```cron```*
-
-5.	Перешла в мой домашний каталог и вывела на экран его содержимое: *(рис 5.1)*
-
-```cd /home``` и ```ls```
+  ![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab08/Screenshot/9.png?raw=true![image](https://user-images.githubusercontent.com/83212205/118291531-866bcc00-b4f9-11eb-9bf7-fba74b628804.png))
+  
+ *Рис 4.2. Информация*
  
- ![]()
+ Дерево каталогов *(рис 4.3)*:
  
-*Рис 5.1. Перешла в ```/home``` и вывела содержимое*
+ ![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab08/Screenshot/10.png?raw=true![image](https://user-images.githubusercontent.com/83212205/118291783-c9c63a80-b4f9-11eb-9947-f03ab27e6725.png))
+ 
+ *Рис 4.3. Дерево каталогов*
+ 
+ Формат списка файлов *(рис 4.4)*:
+ 
+ ![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab08/Screenshot/11.png?raw=true![image](https://user-images.githubusercontent.com/83212205/118292030-085bf500-b4fa-11eb-95f5-464bf4807b4b.png))
+ 
+ *Рис 4.4. Формат списка файлов*
+ 
+ 
+5.	Использовала возможности подменю ```Файл```: *(рис 5.1)*
+ 
+ ![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab08/Screenshot/12.png?raw=true![image](https://user-images.githubusercontent.com/83212205/118292451-730d3080-b4fa-11eb-95b6-30e8ad5dadd5.png))
+ 
+*Рис 5.1. Подменю ```Файл```*
 
-Определила, кто является владельцем файлов и подкаталогов *(рис 5.2)*:
+- Просмотрела содержимое текстового файла *(рис 5.2 и 5.3)*:
 
-![]()
+![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab08/Screenshot/13.png?raw=true![image](https://user-images.githubusercontent.com/83212205/118292616-a354cf00-b4fa-11eb-8724-747f100f7ed3.png))
 
-*Рис 5.2. Определила кто владелец*
+![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab08/Screenshot/14.png?raw=true![image](https://user-images.githubusercontent.com/83212205/118292684-b5367200-b4fa-11eb-8643-9a9227402a12.png))
+
+*Рис 5.2 и 5.3. Просмотр содержимого текстового файла*
+
+- Отредактировала содержимое текстового файла, добавила hello и hi *(рис 5.4 и 5.5)*:
+
+![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab08/Screenshot/15.png?raw=true![image](https://user-images.githubusercontent.com/83212205/118293169-31c95080-b4fb-11eb-84ac-6994ebab8381.png))
+
+![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab08/Screenshot/17.png?raw=true![image](https://user-images.githubusercontent.com/83212205/118293215-3f7ed600-b4fb-11eb-8334-8a069716fef5.png))
+
+*Рис 5.4 и 5.5. Правка содержимого файла*
+
+- Создала каталог hello *(рис 5.6 и 5.7)*:
+
+![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab08/Screenshot/18.png?raw=true![image](https://user-images.githubusercontent.com/83212205/118293523-8d93d980-b4fb-11eb-94b2-4e03edd48eb7.png))
+
+![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab08/Screenshot/19.png?raw=true![image](https://user-images.githubusercontent.com/83212205/118293733-c764e000-b4fb-11eb-99e6-72555da7e7d6.png))
+
+*Рис 5.6 и 5.7. Создание каталога*
+
+- Скопировала файл в созданный каталог *(рис 5.8 и 5.9)*:
+
+![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab08/Screenshot/20.png?raw=true![image](https://user-images.githubusercontent.com/83212205/118293956-085cf480-b4fc-11eb-99e3-89ce63460550.png))
+
+![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab08/Screenshot/21.png?raw=true![image](https://user-images.githubusercontent.com/83212205/118294018-19a60100-b4fc-11eb-9d58-64cbbf76b4a5.png))
+
+*Рис 5.8 и 5.9. Копирование файлов в каталог*
+
 
 6.	В домашнем каталоге создала новый каталог с именем ```newdir```: *(рис 6.1)*
 
