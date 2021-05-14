@@ -99,21 +99,23 @@ header-includes:
 
 **Описание результатов выполнения задания:**
 
-1.  *(рис 1.1)*:
+1.  Изучила информацию о ```mc```, вызвав в командной строке ```man mc```*(рис 1.1 и 1.2)*:
 
-```ls```
+```man mc```
 
-   ![]()
+   ![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab08/Screenshot/1.png?raw=true![image](https://user-images.githubusercontent.com/83212205/118288415-3b9c8500-b4f6-11eb-8561-b815604fa546.png))
    
-*Рис 1.1. Определение имени моего домашнего каталога*
+   ![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab08/Screenshot/2.png?raw=true![image](https://user-images.githubusercontent.com/83212205/118288450-4820dd80-b4f6-11eb-9014-99a302474620.png))
+   
+*Рис 1.1 и 1.2. Изучение информации о команде ```mc```*
 
-2.	 *(рис 2.1)*:
+2.	 Запустила из командной строки ```mc```, изучила структуру и меню *(рис 2.1)*:
 
-```cd /tmp```
+```mc```
  
- ![]()
+ ![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab08/Screenshot/3.png?raw=true![image](https://user-images.githubusercontent.com/83212205/118288981-b2d21900-b4f6-11eb-8747-dade4a40fa78.png))
  
-*Рис 2.1. Переход в каталог ```/tmp```*
+*Рис 2.1. Вызов ```mc```*
 
 3.	: *(рис 3.1)*
 
