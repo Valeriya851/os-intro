@@ -124,7 +124,7 @@ header-includes:
 
 ```cd lab06```
 
-![]()
+![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab09/Screenshot/cd%20lab06.png?raw=true![Uploading image.png…]())
  
 *Рис 2.1. Перешла в каталог ```lab06```*
 
