@@ -115,7 +115,7 @@ header-includes:
 
 ```mkdir lab06```
 
-   ![]()
+   ![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab09/Screenshot/1.png?raw=true![image](https://user-images.githubusercontent.com/83212205/118825374-70d11a80-b8dc-11eb-8dcf-61c906dfb8a8.png))
    
 *Рис 1.1. Создала каталог ```lab06```*
 
@@ -132,7 +132,7 @@ header-includes:
 3.	Вызвала ```vi``` и создала файл ```hello.sh```: *(рис 3.1)*
 
 
-![]()
+![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab09/Screenshot/2.png?raw=true![image](https://user-images.githubusercontent.com/83212205/118825428-7d557300-b8dc-11eb-9ca1-25e9c924c8a9.png))
  
 *Рис 3.1. Вызов ```vi``` и создание файла ```hello.sh```*
 
@@ -153,33 +153,32 @@ echo $HELLO
 
 hello
 
-![]()
+![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab09/Screenshot/4.png?raw=true![image](https://user-images.githubusercontent.com/83212205/118825513-8fcfac80-b8dc-11eb-85eb-08f7922a81a0.png))
 
 *Рис 4.1. Ввод текста (```i```)*
 
  
- 
 5.	Нажала клавишу ```Esc``` для перехода в командный режим после завершения ввода текста: *(рис 5.1)*
  
- ![]()
+ ![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab09/Screenshot/5.png?raw=true![image](https://user-images.githubusercontent.com/83212205/118825582-9c540500-b8dc-11eb-9c0d-f29ce7fa7be1.png))
  
 *Рис 5.1. Переход в командный режим (```Esc```)*
 
 
 6.	Нажала ```:``` для перехода в режим последней строки и внизу моего экрана появилось приглашение в виде двоеточия *(рис 6.1)*:
 
- ![]()
+ ![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab09/Screenshot/6.png?raw=true![image](https://user-images.githubusercontent.com/83212205/118825627-a7a73080-b8dc-11eb-8100-697a1998371f.png))
  
 *Рис 6.1. Переход в режим последней строки (```:```)*
 
 
 7.	Нажала ```w``` (записать) и ```q``` (выйти), а затем нажала клавишу ```Enter``` для сохранения моего текста и завершения работы.: *(рис 7.1)*
 
- ![]()
+ ![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab09/Screenshot/7.png?raw=true![image](https://user-images.githubusercontent.com/83212205/118825679-b55cb600-b8dc-11eb-9493-20265f624358.png))
 
 *Рис 7.1. Запись (```w```) и выход (```q```)*
 
-![]()
+![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab09/Screenshot/8.png?raw=true![image](https://user-images.githubusercontent.com/83212205/118825731-c0174b00-b8dc-11eb-9a5b-b85c249e57a1.png))
 
 *Рис 7.2. Завершение работы*
 
@@ -188,7 +187,7 @@ hello
 
 ```chmod +x hello.sh```
 
-![]()
+![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab09/Screenshot/9.png?raw=true![image](https://user-images.githubusercontent.com/83212205/118825783-cc030d00-b8dc-11eb-9357-eaa458ac12f0.png))
 
 *Рис 8.1. Исполняемый файл*
 
@@ -200,7 +199,7 @@ hello
 
 ```vi hello.sh```
  
- ![]()
+ ![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab09/Screenshot/10.png?raw=true![image](https://user-images.githubusercontent.com/83212205/118825828-d7563880-b8dc-11eb-8b9b-361375762143.png))
 
 *Рис 1.1. Вызов на редактирование*
 
@@ -209,7 +208,7 @@ hello
 
 ```2``` + (```Shift``` + ```G```)
 
-![]()
+![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab09/Screenshot/11.png?raw=true![image](https://user-images.githubusercontent.com/83212205/118825884-e2a96400-b8dc-11eb-8e65-8da4c9e23b1b.png))
 
 *Рис 2.1. Установка курсора*
 
@@ -220,7 +219,7 @@ hello
 
 ```Esc```;
 
-![]()
+![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab09/Screenshot/12.png?raw=true![image](https://user-images.githubusercontent.com/83212205/118826009-f5bc3400-b8dc-11eb-943c-06539b03b8e4.png))
 
 *Рис 3.1. Замена слова*
 
@@ -231,11 +230,11 @@ hello
 
 ```Shift``` + ```x``` *(рис 4.2)*;
 
-![]()
+![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab09/Screenshot/13.png?raw=true![image](https://user-images.githubusercontent.com/83212205/118826125-07054080-b8dd-11eb-8573-bd669a6dcaf4.png))
 
 *Рис 4.1. Установка курсора на четвертую строку*
 
-![]()
+![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab09/Screenshot/14.png?raw=true![image](https://user-images.githubusercontent.com/83212205/118826181-12586c00-b8dd-11eb-9fab-81dc17ca3bfe.png))
 
 *Рис 4.2. Стирание*
 
@@ -245,21 +244,21 @@ hello
 
 ```Esc```;
 
-![]()
+![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab09/Screenshot/15.png?raw=true![image](https://user-images.githubusercontent.com/83212205/118826253-243a0f00-b8dd-11eb-93fa-d09249cd3c06.png))
 
 *Рис 5.1. Набор текста ```local```*
 
-6.  Установила курсор на последней строке файла. Вставила после неё строку, содержащую следующий текст: ```echo $HELLO``` :
+6.  Установила курсор на последней строке файла. Вставила после неё строку, содержащую следующий текст: ```echo hello``` :
 
 ```Shift``` + ```G``` *(рис 6.1)*;
 
 ```i``` *(рис 6.2)*;
 
-![]()
+![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab09/Screenshot/16.png?raw=true![image](https://user-images.githubusercontent.com/83212205/118826359-3ddb5680-b8dd-11eb-8b99-572cf280614a.png))
 
 *Рис 6.1. Установка курсора на последнюю строку*
 
-![]()
+![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab09/Screenshot/17.png?raw=true![image](https://user-images.githubusercontent.com/83212205/118826390-46339180-b8dd-11eb-8e99-2398d65990f6.png))
 
 *Рис 6.2. Вставка текста*
 
@@ -267,15 +266,11 @@ hello
 
 ```Esc```;
 
-![]()
-
-*Рис 7.1. Переход в командный режим*
-
 8.  Удалила последнюю строку *(рис 8.1)*:
 
 (```Shift``` + ```d```) + ```0```;
 
-![]()
+![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab09/Screenshot/18.png?raw=true![image](https://user-images.githubusercontent.com/83212205/118826512-5e0b1580-b8dd-11eb-9d7c-7691188bb1ee.png))
 
 *Рис 8.1. Удаление последней строки*
 
@@ -283,7 +278,7 @@ hello
 
 ```Shift``` + ```u```;
 
-![]()
+![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab09/Screenshot/19.png?raw=true![image](https://user-images.githubusercontent.com/83212205/118826584-6e22f500-b8dd-11eb-805d-b09cbe0d84d2.png))
 
 *Рис 9.1. Отмена последней команды*
 
@@ -295,11 +290,11 @@ hello
 
 ```Enter```;
 
-![]()
+![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab09/Screenshot/21.png?raw=true![image](https://user-images.githubusercontent.com/83212205/118826650-7b3fe400-b8dd-11eb-8b2e-530563efed93.png))
 
 *Рис 10.1. Запись и выход*
 
-![]()
+![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab09/Screenshot/22.png?raw=true![image](https://user-images.githubusercontent.com/83212205/118826697-86930f80-b8dd-11eb-99e8-d60d417b71a9.png))
 
 *Рис 10.2. Завершение*
 
