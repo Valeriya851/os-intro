@@ -115,15 +115,15 @@ Emacs представляет собой мощный экранный реда
 
 ```emacs```
 
-   ![]()
+   ![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab10/Screenshot/1.png?raw=true![image](https://user-images.githubusercontent.com/83212205/118982619-6b87d480-b99d-11eb-8fdb-ef2906967c12.png))
    
-   ![]()
+   ![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab10/Screenshot/2.png?raw=true![image](https://user-images.githubusercontent.com/83212205/118982650-7478a600-b99d-11eb-9807-d68f10cd70dd.png))
    
 *Рис 1.1 и 1.2. Открытие ```emacs```*
 
 2.	 Создать файл ```lab07.sh``` с помощью комбинации ```Ctrl-x``` ```Ctrl-f``` (```C-x``` ```C-f```) *(рис 2.1)*:
  
- ![]()
+ ![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab10/Screenshot/создание.png?raw=true![image](https://user-images.githubusercontent.com/83212205/118985744-8c9df480-b9a0-11eb-8958-24dafbe3d877.png))
  
 *Рис 2.1. Создание файла*
 
@@ -142,30 +142,26 @@ echo $HELLO
 
 hello
  
-![]()
+![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab10/Screenshot/4.png?raw=true![image](https://user-images.githubusercontent.com/83212205/118982756-8b1efd00-b99d-11eb-995e-909b775478c3.png))
 
 *Рис 2.1. Набор текста*
  
-4.  Сохранила файл с помощью комбинации ```Ctrl-x``` ```Ctrl-s``` (```C-x``` ```C-s```) *(рис 4.1)*: `
-
-![]()
-
-*Рис 4.1. Сохранение файла*
+4.  Сохранила файл с помощью комбинации ```Ctrl-x``` ```Ctrl-s``` (```C-x``` ```C-s```): `
 
 
 5.	Проделала с текстом стандартные процедуры редактирования: 
 
  a) Вырезала одной командой целую строку (```С-k```) *(рис 5.1)*
  
- ![]()
+ ![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab10/Screenshot/выделение.png?raw=true![image](https://user-images.githubusercontent.com/83212205/118985859-a50e0f00-b9a0-11eb-97d4-87931b7e98b9.png))
  
- ![]()
+ ![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab10/Screenshot/вырезание.png?raw=true![image](https://user-images.githubusercontent.com/83212205/118985898-ae977700-b9a0-11eb-9bd7-b03afc261e40.png))
  
 *Рис 5.1. Вырезание строки*
 
  b) Вставила эту строку в конец файла (```C-y```) *(рис 5.2)*:
 
-![]()
+![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab10/Screenshot/вставка.png?raw=true![image](https://user-images.githubusercontent.com/83212205/118985954-bb1bcf80-b9a0-11eb-9f33-2921c4b64765.png))
 
 *Рис 5.2. Вставка строки*
 
@@ -174,27 +170,27 @@ hello
 
  d) Скопировала область в буфер обмена (```M-w```) *(рис 5.3)*:
 
-![]()
+![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab10/Screenshot/8.png?raw=true![image](https://user-images.githubusercontent.com/83212205/118983039-d46f4c80-b99d-11eb-9f6f-422b4d05cc62.png))
 
 *Рис 5.3. Копирование области в буфер обмена*
 
  e) Вставила область в конец файла *(рис 5.4)*:
 
-![]()
+![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab10/Screenshot/9.png?raw=true![image](https://user-images.githubusercontent.com/83212205/118983092-e2bd6880-b99d-11eb-8c11-f47e5970586b.png))
 
 *Рис 5.4. Вставка в конец файла*
 
  f) Вновь выделила эту область и на этот раз вырезала её (```C-w```) *(рис 5.5)*:
 
-![]()
+![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab10/Screenshot/10.png?raw=true![image](https://user-images.githubusercontent.com/83212205/118983147-f072ee00-b99d-11eb-9e8f-98942fcf0cd2.png))
 
-![]()
+![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab10/Screenshot/9.png?raw=true![image](https://user-images.githubusercontent.com/83212205/118983325-1dbf9c00-b99e-11eb-8ebe-b554440aebb4.png))
 
 *Рис 5.5. Выделение и вырезание*
 
  g) Отмените последнее действие (C-/) *(рис 5.6)*:
  
- ![]()
+ ![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab10/Screenshot/11.png?raw=true![image](https://user-images.githubusercontent.com/83212205/118983361-2adc8b00-b99e-11eb-92bc-f2e96f1166e9.png))
 
 *Рис 5.6. Отмена последнего действия*
 
@@ -202,25 +198,25 @@ hello
 
   а) Переместила курсор в начало строки (```C-a```) *(рис 6.1)*:
 
- ![]()
+ ![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab10/Screenshot/начало.png?raw=true![image](https://user-images.githubusercontent.com/83212205/118986014-cbcc4580-b9a0-11eb-9855-c7b58fdec19d.png))
  
 *Рис 6.1. Перемещение курсора*
 
   b) Переместила курсор в конец строки (```C-e```) *(рис 6.2)*:
 
-![]()
+![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab10/Screenshot/конец.png?raw=true![image](https://user-images.githubusercontent.com/83212205/118986080-d7b80780-b9a0-11eb-9dca-c5b450f1c67c.png))
 
 *Рис 6.2. Перемещение курсора*
 
   с) Переместила курсор в начало буфера (M-<) *(рис 6.3)*:
 
-![]()
+![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab10/Screenshot/13.png?raw=true![image](https://user-images.githubusercontent.com/83212205/118983640-75f69e00-b99e-11eb-919c-f7a6dc3c99c2.png))
 
 *Рис 6.3. Перемещение курсора*
 
   d) Переместила курсор в конец буфера (M->) *(рис 6.4)*:
 
-![]()
+![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab10/Screenshot/14.png?raw=true![image](https://user-images.githubusercontent.com/83212205/118983502-53fd1b80-b99e-11eb-9992-e3bbf72836b6.png))
 
 *Рис 6.4. Перемещение курсора*
 
@@ -229,25 +225,27 @@ hello
 
    a) Вывела список активных буферов на экран (```C-x``` ```C-b```) *(рис 7.1)*
 
- ![]()
+ ![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab10/Screenshot/15.png?raw=true![image](https://user-images.githubusercontent.com/83212205/118983690-83138d00-b99e-11eb-9fdf-6407de2f6a8c.png))
  
 *Рис 7.1. Вывод списка на экран*
 
    b) Переместила во вновь открытое окно (```C-x```) со списком открытых буферов и переключилась на другой буфер. *(рис 7.2)*:
 
-![]()
+![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab10/Screenshot/17.png?raw=true![image](https://user-images.githubusercontent.com/83212205/118983773-9a527a80-b99e-11eb-9da9-2bf474898730.png))
+
+![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab10/Screenshot/16.png?raw=true![image](https://user-images.githubusercontent.com/83212205/118983732-8eff4f00-b99e-11eb-8fe4-c72efc7a49c6.png))
 
 *Рис 7.2. Переключение на другой буфер*
 
    c) Закрыла это окно (```C-x 0```) *(рис 7.3)*:
 
-![]()
+![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab10/Screenshot/18.png?raw=true![image](https://user-images.githubusercontent.com/83212205/118983857-b229fe80-b99e-11eb-8ada-a0e515e9afe2.png))
 
 *Рис 7.3. Закрыла окно*
 
    d) Теперь вновь переключилась между буферами, но уже без вывода их списка на экран (```C-x b```) *(рис 7.4)*:
 
-![]()
+![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab10/Screenshot/19.png?raw=true![image](https://user-images.githubusercontent.com/83212205/118983911-c40ba180-b99e-11eb-8e90-1f50909f9798.png))
 
 *Рис 7.4. Переключение между буферами*
 
@@ -256,17 +254,17 @@ hello
 
  a) Поделила фрейм на 4 части: разделила фрейм на два окна по вертикали (C-x 3), а затем каждое из этих окон на две части по горизонтали (C-x 2) *(рис 8.1, 8.2)*
 
- ![]()
+ ![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab10/Screenshot/20.png?raw=true![image](https://user-images.githubusercontent.com/83212205/118983984-d7b70800-b99e-11eb-8789-6366cb9ca642.png))
  
 *Рис 8.1. Разделение на 2 части*
 
- ![]()
+ ![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab10/Screenshot/21.png?raw=true![image](https://user-images.githubusercontent.com/83212205/118984030-e2719d00-b99e-11eb-9878-5005a0aa42d5.png))
  
 *Рис 8.2. Разделение на 4 части*
 
    b) В каждом из четырёх созданных окон открыла новый буфер (файл) и ввела несколько строк текста *(рис 8.3)*:
 
-![]()
+![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab10/Screenshot/22.png?raw=true![image](https://user-images.githubusercontent.com/83212205/118984078-f0272280-b99e-11eb-8b1d-f9f3741e1468.png))
 
 *Рис 8.3. Введение текста*
 
@@ -274,49 +272,45 @@ hello
 
  a) Переключилась в режим поиска (```C-s```) и нашла несколько слов, присутствующих в тексте *(рис 9.1)*
  
- ![]()
+ ![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab10/Screenshot/23.png?raw=true![image](https://user-images.githubusercontent.com/83212205/118984118-fb7a4e00-b99e-11eb-86cc-e06f3a4574aa.png))
  
 *Рис 9.1. Поиск слов*
 
  b) Переключилась между результатами поиска, нажимая ```C-s``` *(рис 9.2)*:
 
-![]()
+![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab10/Screenshot/24.png?raw=true![image](https://user-images.githubusercontent.com/83212205/118984155-0503b600-b99f-11eb-9053-49e94ec3ed72.png))
 
-![]()
+![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab10/Screenshot/2%20hello.png?raw=true![image](https://user-images.githubusercontent.com/83212205/118985473-4a74b300-b9a0-11eb-9fa2-444f7d630ed7.png))
 
-![]()
+![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab10/Screenshot/25.png?raw=true![image](https://user-images.githubusercontent.com/83212205/118984211-1220a500-b99f-11eb-9ede-c90f0bbd37ac.png))
 
 *Рис 9.2. Переключение между результатами поиска*
 
  c) Вышла из режима поиска, нажав ```C-g``` *(рис 9.3)*:
 
-![]()
+![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab10/Screenshot/27.png?raw=true![image](https://user-images.githubusercontent.com/83212205/118984293-2b295600-b99f-11eb-9f1a-b8af4242d4a6.png))
 
 *Рис 9.3. Выход из режима*
 
  d) Перешла в режим поиска и замены (```M-%```), ввела текст, который следует найти и заменить, нажала ```Enter``` , затем ввела текст для замены. После того как были подсвечены результаты поиска, нажала ```!``` для подтверждения замены *(рис 9.4, 9.5, 9.6)*:
 
-![]()
+![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab10/Screenshot/28.png?raw=true![image](https://user-images.githubusercontent.com/83212205/118984344-3bd9cc00-b99f-11eb-971e-ecdce0ee9e46.png))
 
 *Рис 9.4. Переход в режим поиска и замены, и ввод текста, который следует найти*
 
-![]()
+![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab10/Screenshot/29.png?raw=true![image](https://user-images.githubusercontent.com/83212205/118984388-45633400-b99f-11eb-8d3c-0dfc4bf09f93.png))
 
 *Рис 9.5. Ввод текста для замены*
 
-![]()
+![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab10/Screenshot/30.png?raw=true![image](https://user-images.githubusercontent.com/83212205/118984500-5f9d1200-b99f-11eb-939a-464b58a98626.png))
 
-*Рис 9.6. Подтверждение замены*
+*Рис 9.6. Результат*
 
-![]()
+ e) Испробовала другой режим поиска, нажав ```M-s o``` *(рис 9.7)*:
 
-*Рис 9.7. Результат*
+![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab10/Screenshot/31.png?raw=true![image](https://user-images.githubusercontent.com/83212205/118984548-6a57a700-b99f-11eb-9c00-9186b01630fe.png))
 
- e) Испробовала другой режим поиска, нажав ```M-s o``` *(рис 9.9)*:
-
-![]()
-
-*Рис 9.8. Другой режим поиска*
+*Рис 9.7. Другой режим поиска*
 
  Он отличается тем, что внизу экрана выводится окно, где показывает количество предложений в которых нашли это слово. Слово представленное для нахождения подсвечивается желтым. 
 
