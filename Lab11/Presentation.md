@@ -52,7 +52,7 @@ echo "Архивация файла"
 
 # Задания
 
-![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab11/Screenshot/8.png?raw=true![image](https://user-images.githubusercontent.com/83212205/119552761-b69a5100-bdbc-11eb-8592-a9b4791cdb9b.png)
+![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab11/Screenshot/8.png?raw=true![image](https://user-images.githubusercontent.com/83212205/119552761-b69a5100-bdbc-11eb-8592-a9b4791cdb9b.png))
 
 
 # Задания
