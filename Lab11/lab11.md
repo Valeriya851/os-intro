@@ -116,9 +116,9 @@ header-includes:
 
  ```man zip```; *(рис 1.1 и рис 1.2)*
  
- ![]()
+ ![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab11/Screenshot/1.png?raw=true![image](https://user-images.githubusercontent.com/83212205/119545233-66b78c00-bdb4-11eb-8fe7-cd9772f49687.png))
  
- ![]()
+ ![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab11/Screenshot/2.png?raw=true![image](https://user-images.githubusercontent.com/83212205/119545255-71722100-bdb4-11eb-978b-4bcbd847f54a.png))
  
  *Рис 1.1 и 1.2. Команда man zip*
  
@@ -126,18 +126,18 @@ header-includes:
  ```man bzip2```; *(рис 1.3 и рис 1.4)*
  
 
- ![]()
+ ![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab11/Screenshot/3.png?raw=true![image](https://user-images.githubusercontent.com/83212205/119545313-7e8f1000-bdb4-11eb-9ab0-e270ae44cade.png))
  
- ![]()
+ ![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab11/Screenshot/4.png?raw=true![image](https://user-images.githubusercontent.com/83212205/119545342-88b10e80-bdb4-11eb-94d4-b4469ea22286.png))
  
  *Рис 1.3 и 1.4. Команда man bzip2*
  
  
  ```man tar```; *(рис 1.5 и рис 1.6 )*
 
- ![]()
+ ![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab11/Screenshot/5.png?raw=true![image](https://user-images.githubusercontent.com/83212205/119545384-936ba380-bdb4-11eb-804f-1946389b376d.png))
  
- ![]()
+ ![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab11/Screenshot/6.png?raw=true![image](https://user-images.githubusercontent.com/83212205/119545422-9d8da200-bdb4-11eb-9223-f4bf43083068.png))
  
  *Рис 1.5 и 1.6. Команда man tar*
  
@@ -146,7 +146,7 @@ header-includes:
 
 ```touch lab11.txt```
  
- ![]()
+ ![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab11/Screenshot/7.png?raw=true![image](https://user-images.githubusercontent.com/83212205/119545469-aa11fa80-bdb4-11eb-9d05-27949687aa34.png))
  
 *Рис 2.1. Создание файла ```lab11.txt```*
 
@@ -154,7 +154,7 @@ header-includes:
 
 3.	Написала скрипт, который при запуске будет делать резервную копию самого себя (то есть файла, в котором содержится его исходный код) в другую директорию backup в домашнем каталоге. При этом файл архивируется архиватором tar *(рис 3.1)* :
 
-![]()
+![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab11/Screenshot/8.png?raw=true![image](https://user-images.githubusercontent.com/83212205/119545500-b39b6280-bdb4-11eb-8c2d-c80da856f2d7.png))
 
 *Рис 3.1. Написала скрипт*
 
@@ -175,7 +175,7 @@ echo "Архивация файла"                                          (*
 
 ```chmod ugo+x lab11.txt```
 
-![]()
+![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab11/Screenshot/9.png?raw=true![image](https://user-images.githubusercontent.com/83212205/119545559-c6159c00-bdb4-11eb-8ece-dd2409bed507.png))
 
 *Рис 4.1. Исполняемый файл*
 
@@ -184,9 +184,15 @@ echo "Архивация файла"                                          (*
  
  ```./lab11.txt```
  
-![]()
+ Правильность выполнения:
+ 
+ ```ls```;
+ 
+ ```ls backup```
+ 
+![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab11/Screenshot/10.png?raw=true![image](https://user-images.githubusercontent.com/83212205/119545600-d0d03100-bdb4-11eb-8cb9-50a9dfbe5df5.png))
 
-*Рис 5.1. Запуск*
+*Рис 5.1. Запуск и проверила правильность выполнения*
 
 
 
@@ -194,14 +200,14 @@ echo "Архивация файла"                                          (*
 
 ```touch lab.txt```
  
- ![]()
+ ![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab11/Screenshot/11.png?raw=true![image](https://user-images.githubusercontent.com/83212205/119545797-07a64700-bdb5-11eb-9be7-8d7e8c5964ce.png))
  
 *Рис 6.1. Создание файла ```lab.txt```*
 
 
 7.	Написала пример командного файла, обрабатывающего любое произвольное число аргументов командной строки, в том числе превышающее десять. Скрипт может последовательно распечатывать значения всех переданных аргументов: *(рис 7.1)*
 
- ![]()
+ ![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab11/Screenshot/12.png?raw=true![image](https://user-images.githubusercontent.com/83212205/119545835-112faf00-bdb5-11eb-8c09-ff615cde889a.png))
  
 *Рис 7.1. Написанный скрипт*
 
@@ -235,7 +241,7 @@ echo ${11}
 
 ```chmod ugo+x lab.txt```
 
-![]()
+![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab11/Screenshot/13.png?raw=true![image](https://user-images.githubusercontent.com/83212205/119545916-24427f00-bdb5-11eb-9f99-c737de13e37c.png))
 
 *Рис 8.1. Исполняемый файл*
 
@@ -245,13 +251,13 @@ echo ${11}
  
  Несколько переменных:
  
-![]()
+![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab11/Screenshot/14.png?raw=true![image](https://user-images.githubusercontent.com/83212205/119545987-3c1a0300-bdb5-11eb-92f8-5f01b808b11b.png))
 
 *Рис 9.1. Запуск*
 
 11 переменных:
 
-![]()
+![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab11/Screenshot/15.png?raw=true![image](https://user-images.githubusercontent.com/83212205/119546033-450ad480-bdb5-11eb-835e-e69f47fab1c2.png))
 
 *Рис 9.2. Запуск*
 
@@ -259,13 +265,13 @@ echo ${11}
 
 ```touch lb.txt```
  
- ![]()
+ ![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab11/Screenshot/16.png?raw=true![image](https://user-images.githubusercontent.com/83212205/119546076-5227c380-bdb5-11eb-9bf0-10b81678898e.png))
  
 *Рис 10.1. Создание файла ```lb.txt```*
 
 11.	Написала командный файл — аналог команды ```ls``` *(рис 11.1)*:
 
- ![]()
+ ![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab11/Screenshot/17.png?raw=true![image](https://user-images.githubusercontent.com/83212205/119546185-75eb0980-bdb5-11eb-9f6e-cc271a95bc2c.png))
  
 *Рис 11.1. Создание скрипта*
 
@@ -288,7 +294,7 @@ done                              (*Сделано*)
 
 ```chmod ugo+x lb.txt```
 
-![]()
+![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab11/Screenshot/18.png?raw=true![image](https://user-images.githubusercontent.com/83212205/119546239-8602e900-bdb5-11eb-97f9-007fea996309.png))
 
 *Рис 12.1. Исполняемый файл*
 
@@ -298,7 +304,7 @@ done                              (*Сделано*)
  
  Ввела ```/home``` 
  
-![]()
+![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab11/Screenshot/20.png?raw=true![image](https://user-images.githubusercontent.com/83212205/119546323-9915b900-bdb5-11eb-8270-85e1d2a8ed56.png))
 
 *Рис 13.1. Запуск*
 
@@ -307,13 +313,13 @@ done                              (*Сделано*)
 
 ```touch l.txt```
  
- ![]()
+ ![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab11/Screenshot/21.png?raw=true![image](https://user-images.githubusercontent.com/83212205/119546362-a3d04e00-bdb5-11eb-9123-11e7bc38e57d.png))
  
 *Рис 14.1. Создание файла ```l.txt```*
 
 15. Написала командный файл, который получает в качестве аргумента командной строки формат файла (.txt, .doc, .jpg, .pdf и т.д.) и вычисляет количество таких файлов в указанной директории. Путь к директории также передаётся в виде аргумента командной строки.
 
- ![]()
+ ![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab11/Screenshot/22.png?raw=true![image](https://user-images.githubusercontent.com/83212205/119546388-ae8ae300-bdb5-11eb-9bcc-47b139fae3b8.png))
  
 *Рис 15.1. Создание скрипта*
 
@@ -334,7 +340,7 @@ tree -P "*$1" --prune $2               (*Выводит информацию, с
 
 ```chmod ugo+x l.txt```
 
-![]()
+![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab11/Screenshot/23.png?raw=true![image](https://user-images.githubusercontent.com/83212205/119546435-bd719580-bdb5-11eb-95f2-75c906e09187.png))
 
 *Рис 16.1. Исполняемый файл*
 
@@ -345,13 +351,17 @@ tree -P "*$1" --prune $2               (*Выводит информацию, с
  
  Ввела ```.txt``` ```~```
  
-![]()
+![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab11/Screenshot/24.png?raw=true![image](https://user-images.githubusercontent.com/83212205/119546545-d67a4680-bdb5-11eb-80c2-cd3f960f5818.png))
+
+![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab11/Screenshot/25.png?raw=true![image](https://user-images.githubusercontent.com/83212205/119546627-ee51ca80-bdb5-11eb-8abe-5fe787925875.png))
 
 *Рис 17.1. Запуск*
 
 Ввела ```.pdf``` ```~```
 
-![]()
+![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab11/Screenshot/27.png?raw=true![image](https://user-images.githubusercontent.com/83212205/119546677-ff9ad700-bdb5-11eb-8e11-34e2f43cc522.png))
+
+![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab11/Screenshot/28.png?raw=true![image](https://user-images.githubusercontent.com/83212205/119546742-13ded400-bdb6-11eb-8a9e-483ded1c6eb0.png))
 
 *Рис 17.2. Запуск*
 
