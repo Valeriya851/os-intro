@@ -124,7 +124,7 @@ header-includes:
 
 ```touch lab12.txt```
  
- ![]()
+ ![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab12/Screenshot/1.png?raw=true![image](https://user-images.githubusercontent.com/83212205/119786259-d0898000-bef1-11eb-99d7-fd4a840cd2d5.png))
  
 *Рис 2.1. Создание файла ```lab12.txt```*
 
@@ -141,7 +141,7 @@ header-includes:
 
 – -n — выдавать номера строк. *(рис 2.1)*:
  
- ![]()
+ ![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab12/Screenshot/2.png?raw=true![image](https://user-images.githubusercontent.com/83212205/119786418-fb73d400-bef1-11eb-9d5c-79b59de0bba8.png))
 
 *Рис 1.1. Написала скрипт*
 
@@ -173,7 +173,7 @@ done
 
 ```chmod ugo+x lab12.txt```
 
-![]()
+![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab12/Screenshot/3.png?raw=true![image](https://user-images.githubusercontent.com/83212205/119786467-0890c300-bef2-11eb-94cd-740fd72db846.png))
 
 *Рис 3.1. Исполняемый файл*
 
@@ -182,24 +182,24 @@ done
  
  ```./lab12.txt```
  
-![]()
+![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab12/Screenshot/4.png?raw=true![image](https://user-images.githubusercontent.com/83212205/119786570-26f6be80-bef2-11eb-8db5-0640dcc4500c.png))
+
+![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab12/Screenshot/5.png?raw=true![image](https://user-images.githubusercontent.com/83212205/119786644-383fcb00-bef2-11eb-8f23-5d842f0c7657.png))
+
+![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab12/Screenshot/6.png?raw=true![image](https://user-images.githubusercontent.com/83212205/119786701-442b8d00-bef2-11eb-8e72-14708584190b.png))
 
 *Рис 4.1. Запуск*
 
 
 
-5.	Создала файл ```lab12.cpp``` *(рис 5.1)*:
+5.	Создала файл ```lab12.cpp```:
 
 ```touch lab12.cpp```
- 
- ![]()
- 
-*Рис 5.1. Создание файла ```lab12.cpp```*
 
 
 6.	Написала на языке С++ программу, которая вводит число и определяет, является ли оно больше нуля, меньше нуля или равно нулю: *(рис 6.1)*
 
- ![]()
+ ![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab12/Screenshot/7.png?raw=true![image](https://user-images.githubusercontent.com/83212205/119786751-51487c00-bef2-11eb-9bcf-62c1e95a74f8.png))
  
 *Рис 6.1. Написанная программа*
 
@@ -235,17 +235,15 @@ return 0;
 
 }
 
-7. Создала файл ```lab12.sh``` *(рис 7.1)*:
+7. Создала файл ```lab12.sh```:
 
 ```touch lab12.sh```
  
- ![]()
  
-*Рис 7.1. Создание файла ```lab12.sh```*
 
 8.	Написала скрипт который запускает программу и вывод введенное число, анализирует с помощью команды ```$?``` *(рис 8.1)*: `
 
-![]()
+![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab12/Screenshot/8.png?raw=true![image](https://user-images.githubusercontent.com/83212205/119786800-5c9ba780-bef2-11eb-89a8-3251da9ba832.png))
 
 *Рис 8.1. Написанный скрипт*
 
@@ -265,22 +263,18 @@ echo "Vveli eto chislo^"
  
  ```./lab12.sh```
  
-![]()
+![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab12/Screenshot/9.png?raw=true![image](https://user-images.githubusercontent.com/83212205/119786851-68876980-bef2-11eb-81ff-4bc8bec999ed.png))
 
 *Рис 9.1. Запуск*
 
 
-10.	Создала файл ```l12.txt``` *(рис 10.1)*:
+10.	Создала файл ```l12.txt```:
 
 ```touch l12.txt```
- 
- ![]()
- 
-*Рис 10.1. Создание файла ```l12.txt```*
 
 11.	Написала командный файл, создающий указанное число файлов, пронумерованных последовательно от 1 до N (например 1.tmp, 2.tmp, 3.tmp,4.tmp и т.д.). Этот же командный файл умеет удалять все созданные им файлы (если они существуют) *(рис 11.1)*:
 
- ![]()
+ ![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab12/Screenshot/10.png?raw=true![image](https://user-images.githubusercontent.com/83212205/119786888-750bc200-bef2-11eb-9a6d-1469ecfdf3f5.png))
  
 *Рис 11.1. Создание командного файла*
 
@@ -311,13 +305,10 @@ do rm -r $i.tmp                    (*Удаляет файлы пронумер�
 done
 
 
-12.	Сделала файл исполняемым *(рис 12.1)*: `
+12.	Сделала файл исполняемым: `
 
 ```chmod ugo+x l12.txt```
 
-![]()
-
-*Рис 12.1. Исполняемый файл*
 
 13. Запуск скрипта: *(рис 13.1)*
  
@@ -325,39 +316,35 @@ done
  
  Создание: *(рис 13.1)*
  
-![]()
+![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab12/Screenshot/11.png?raw=true![image](https://user-images.githubusercontent.com/83212205/119786939-81901a80-bef2-11eb-9475-a42d5c10144b.png))
 
 *Рис 13.1. Создание файлов*
 
 Проверка правильности выполнения: *(рис 13.2)*
 
-![]()
+![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab12/Screenshot/12.png?raw=true![image](https://user-images.githubusercontent.com/83212205/119786982-8c4aaf80-bef2-11eb-9c77-28415abdb0a7.png))
 
 *Рис 13.2. Проверка*
 
 Удаление созданных файлов: *(рис 13.3)*
 
-![]()
+![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab12/Screenshot/13.png?raw=true![image](https://user-images.githubusercontent.com/83212205/119787023-966cae00-bef2-11eb-9d4c-ea10853b04a5.png))
 
 *Рис 13.3. Создание файлов*
 
 Проверка правильности выполнения: *(рис 13.4)*
 
-![]()
+![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab12/Screenshot/14.png?raw=true![image](https://user-images.githubusercontent.com/83212205/119787067-a08eac80-bef2-11eb-8420-c4929d628140.png))
 
 *Рис 13.4. Проверка*
 
-14. Создала файл ```12.txt``` *(рис 14.1)*:
+14. Создала файл ```12.txt```:
 
 ```touch 12.txt```
- 
- ![]()
- 
-*Рис 14.1. Создание файла ```12.txt```*
 
 15. Написала командный файл, который с помощью команды ```tar``` запаковывает в архив все файлы в указанной директории. Модифицировала его так, что запаковываются только те файлы, которые были изменены менее недели тому назад *(рис 15.1)*:
 
- ![]()
+ ![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab12/Screenshot/15.png?raw=true![image](https://user-images.githubusercontent.com/83212205/119787101-a97f7e00-bef2-11eb-90f3-c515b406c991.png))
  
 *Рис 15.1. Создание скрипта*
 
@@ -372,27 +359,22 @@ find $1 -type f -mtime -7 -exec cp -- "{}" ~/newfiles \;      (*Поиск фа�
 tar czf archive.tar.gz newfiles                               (*Архивация*)
 
 
-16. 	Сделала файл исполняемым *(рис 16.1)*: `
+16. 	Сделала файл исполняемым: `
 
 ```chmod ugo+x 12.txt```
-
-![]()
-
-*Рис 16.1. Исполняемый файл*
 
 
 17. Запуск скрипта: *(рис 17.1)*
  
  ```./12.txt```
  
- 
-![]()
+![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab12/Screenshot/16.png?raw=true![image](https://user-images.githubusercontent.com/83212205/119787136-b603d680-bef2-11eb-9ad8-8cdb0a97f824.png))
 
 *Рис 17.1. Запуск*
 
 Проверка: *(рис 17.2)*
 
-![]()
+![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab12/Screenshot/17.png?raw=true![image](https://user-images.githubusercontent.com/83212205/119787165-bf8d3e80-bef2-11eb-88b1-c1fc9e5a4da4.png))
 
 *Рис 17.2. Проверка*
 
