@@ -139,7 +139,7 @@ header-includes:
 
 2.	Реализовала команду man с помощью командного файла. Изучила содержимое каталога /usr/share/man/man1. В нем находятся архивы текстовых файлов, содержащих справку по большинству установленных в системе программ и команд. Каждый архив можно открыть командой less сразу же просмотрев содержимое справки. Командный файл получает в виде аргумента командной строки название команды и в виде результата выдает справку об этой команде или сообщение об отсутствии справки, если соответствующего файла нет в каталоге man1*(рис 2.1)*:
  
- ![]()
+ ![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab13/Screenshot/7.png?raw=true![image](https://user-images.githubusercontent.com/83212205/120631288-8708da00-c489-11eb-9291-d666d7d366b5.png))
 
 *Рис 1.1. Написала скрипт*
 
@@ -167,7 +167,7 @@ header-includes:
 
 ```chmod ugo+x lab13.txt```
 
-![]()
+![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab13/Screenshot/9.png?raw=true![image](https://user-images.githubusercontent.com/83212205/120631352-9a1baa00-c489-11eb-92a3-ea2756d12b11.png))
 
 *Рис 3.1. Исполняемый файл*
 
@@ -176,11 +176,16 @@ header-includes:
  
  ```./lab13.txt```
  
-![]()
+![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab13/Screenshot/10.png?raw=true![image](https://user-images.githubusercontent.com/83212205/120631391-a56ed580-c489-11eb-99ee-38318d01c544.png))
 
-![]()
+![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab13/Screenshot/11.png?raw=true![image](https://user-images.githubusercontent.com/83212205/120631426-af90d400-c489-11eb-877a-45e3266e1ddb.png))
 
-![]()
+![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab13/Screenshot/13.png?raw=true![image](https://user-images.githubusercontent.com/83212205/120631527-cdf6cf80-c489-11eb-8bfb-9524bdfc2fe1.png))
+
+![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab13/Screenshot/14.png?raw=true![image](https://user-images.githubusercontent.com/83212205/120631564-d7803780-c489-11eb-8f1f-5891eca66eb9.png))
+
+![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab13/Screenshot/15.png?raw=true![image](https://user-images.githubusercontent.com/83212205/120631628-e8c94400-c489-11eb-946b-48bb7e5d8903.png))
+
 
 *Рис 4.1. Запуск*
 
@@ -192,11 +197,13 @@ header-includes:
 
 ```./dz.txt```
 
-![]()
+![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab13/Screenshot/16.png?raw=true![image](https://user-images.githubusercontent.com/83212205/120631719-ff6f9b00-c489-11eb-8ecb-59ecf74c08e5.png))
 
-![]()
+![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab13/Screenshot/17.png?raw=true![image](https://user-images.githubusercontent.com/83212205/120631756-08f90300-c48a-11eb-9ff1-7b181ad35ec4.png))
 
-![]()
+![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab13/Screenshot/18.png?raw=true![image](https://user-images.githubusercontent.com/83212205/120631795-17dfb580-c48a-11eb-9b22-fcd8e60c153c.png))
+
+![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab13/Screenshot/19.png?raw=true![image](https://user-images.githubusercontent.com/83212205/120631836-2037f080-c48a-11eb-8837-c9ad16bfb231.png))
 
 *Рис 4.2. Запуск*
 
@@ -224,11 +231,15 @@ header-includes:
 
 ```./dz1.txt```
 
-![]()
+![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab13/Screenshot/20.png?raw=true![image](https://user-images.githubusercontent.com/83212205/120631866-2a59ef00-c48a-11eb-85b6-e601746bb1ce.png))
 
-![]()
+![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab13/Screenshot/21.png?raw=true![image](https://user-images.githubusercontent.com/83212205/120631897-334ac080-c48a-11eb-88f0-0ae8dc885fdd.png))
 
-![]()
+![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab13/Screenshot/22.png?raw=true![image](https://user-images.githubusercontent.com/83212205/120631926-3f368280-c48a-11eb-900b-9e66ca0fc0ae.png))
+
+![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab13/Screenshot/23.png?raw=true![image](https://user-images.githubusercontent.com/83212205/120631965-48bfea80-c48a-11eb-8b30-e6ec65c422eb.png))
+
+![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab13/Screenshot/24.png?raw=true![image](https://user-images.githubusercontent.com/83212205/120632033-5a08f700-c48a-11eb-8993-212c002ed69f.png))
 
 *Рис 4.3. Запуск*
 
@@ -257,7 +268,7 @@ header-includes:
 
 6.	Используя встроенную переменную $RANDOM, написала командный файл, генерирующий случайную последовательность букв латинского алфавита. *(рис 6.1)*
 
- ![]()
+ ![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab13/Screenshot/26.png?raw=true![image](https://user-images.githubusercontent.com/83212205/120632158-7c027980-c48a-11eb-865e-1c330be80bba.png))
  
 *Рис 6.1. Написанная программа*
 
@@ -273,7 +284,9 @@ header-includes:
 
 ```./a.txt``` *(рис 6.2)*
 
-![]()
+![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab13/Screenshot/25.png?raw=true![image](https://user-images.githubusercontent.com/83212205/120632097-6d1bc700-c48a-11eb-9ee2-f32c5a988c7b.png))
+
+![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab13/Screenshot/27.png?raw=true![image](https://user-images.githubusercontent.com/83212205/120632287-9c323880-c48a-11eb-92d5-e6b156966f5f.png))
 
 *Рис 6.2. Запуск*
 
@@ -284,7 +297,7 @@ header-includes:
 
 8.	Написала командный файл. Командный файл в течение некоторого времени t1 дожидаться освобождения ресурса, выдавая об этом сообщение, а дождавшись его освобождения, использует его в течение некоторого времени t2. Запустила командный файл в одном виртуальном терминале в фоновом режиме, перенаправив его вывод в другой (> /dev/tty#, где # — номер терминала куда перенаправляется вывод), в котором также запущен этот файл, но не фоновом, а в привилегированном режиме.  *(рис 8.1)*: `
 
-![])
+![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab13/Screenshot/1.png?raw=true![image](https://user-images.githubusercontent.com/83212205/120631004-32655f00-c489-11eb-839a-45f4cba210bc.png))
 
 *Рис 8.1. Написанный скрипт*
 
@@ -315,7 +328,7 @@ header-includes:
  
  ```./b.txt```
  
-![]()
+![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab13/Screenshot/2.png?raw=true![image](https://user-images.githubusercontent.com/83212205/120631062-4315d500-c489-11eb-8201-858e0ef7d4f2.png))
 
 *Рис 9.1. Запуск*
 
@@ -332,7 +345,7 @@ g++ -o lab13 lab13.c        (*Запуск файла*)
 
 ./lab13
 
- ![]()
+ ![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab13/Screenshot/6.png?raw=true![image](https://user-images.githubusercontent.com/83212205/120631224-76586400-c489-11eb-8a01-5eb3aa092bca.png))
  
 *Рис 10.1. Скрипт* 
 
@@ -431,9 +444,9 @@ struct semaphore
         
      }                
 
-![])
+![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab13/Screenshot/3.png?raw=true![image](https://user-images.githubusercontent.com/83212205/120631124-532db480-c489-11eb-9802-8edf586df411.png))
 
-![])
+![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab13/Screenshot/4.png?raw=true![image](https://user-images.githubusercontent.com/83212205/120631154-5c1e8600-c489-11eb-8bdd-c0038459854b.png))
 
 *Рис 10.2. Написанный скрипт*
 
