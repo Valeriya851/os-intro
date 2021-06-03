@@ -145,23 +145,23 @@ header-includes:
 
 **Скрипт**
 
-#!/bin/bash                       (*Командная оболочка Bash*)
+```#!/bin/bash```                     (*Командная оболочка Bash*)
 
-cd /usr/share/man/man1
+```cd /usr/share/man/man1```
 
-ls
+```ls```
 
-for file in *
+```for file in *```
 
-do
+```do```
 
-   less "$file"
+  ``` less "$file"```
    
-   man $1
+   ```man $1```
    
-   break
+   ```break```
    
-done
+```done```
 
 3.  Сделала файл исполняемым *(рис 3.1)*: `
 
@@ -202,19 +202,19 @@ done
 
 **Скрипт**
 
-#!/bin/bash                   (*Командная оболочка Bash*)
+```#!/bin/bash```                   (*Командная оболочка Bash*)
 
-cd /usr/share/man/man1
+```cd /usr/share/man/man1```
 
-ls
+```ls```
 
-for file in *
+```for file in *```
 
-do
+```do```
 
-   less "$file"             (*Просмотр содержимого*)
+   ```less "$file"```            (*Просмотр содержимого*)
 
-done
+```done```
 
 **Отдельный командный файл для запуска команды ```man```** *(рис 4.3)*:
 
@@ -234,21 +234,21 @@ done
 
 **Скрипт**
 
-#!/bin/bash                   (*Командная оболочка Bash*)
+```#!/bin/bash```                   (*Командная оболочка Bash*)
 
-cd /usr/share/man/man1
+```cd /usr/share/man/man1```
 
-ls
+```ls```
 
-for file in *
+```for file in *```
 
-do
+```do```
 
-   man $1                  (*Команда man*)
+   ```man $1```                 (*Команда man*)
    
-break
+```break```
 
-done
+```done```
 
 5.	Создала файл ```a.txt```:
 
@@ -263,9 +263,9 @@ done
 
 **Скрипт:**
 
-#!/bin/bash                                               (*Командная оболочка Bash*)
+```#!/bin/bash```                                              (*Командная оболочка Bash*)
 
-head /dev/urandom | tr -dc A-Za-z | head -c 13; echo ''    (*Генерация рандомных букв*)
+```head /dev/urandom | tr -dc A-Za-z | head -c 13; echo ''```    (*Генерация рандомных букв*)
 
 Запустила программу:
 
@@ -290,23 +290,23 @@ head /dev/urandom | tr -dc A-Za-z | head -c 13; echo ''    (*Генерация 
 
 **Скрипт**
 
-#!/bin/bash                            (*Командная оболочка Bash*)
+```#!/bin/bash```                            (*Командная оболочка Bash*)
 
-echo $1
+```echo $1```
 
-echo $2=t1
+```echo $2=t1```
 
-echo "t1 v techenii etogo vremeni"
+```echo "t1 v techenii etogo vremeni"```
 
-echo $3=t2
+```echo $3=t2```
 
-echo "resyrs ecpolzyetca"
+```echo "resyrs ecpolzyetca"```
 
-./$1&
+```./$1&```
 
-sudo -s ./$1 > /dev/tty2             (*Перенаправка вывода*)
+```sudo -s ./$1 > /dev/tty2```             (*Перенаправка вывода*)
 
-echo "zapeshen etot fail $1" 
+```echo "zapeshen etot fail $1"``` 
 
 
 9. Запуск скрипта: *(рис 9.1)*
