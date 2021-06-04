@@ -88,6 +88,7 @@ section-titles: true
 
  ![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab14/Screenshot/5.png?raw=true![image](https://user-images.githubusercontent.com/83212205/120824421-42a93700-c57a-11eb-8cca-a7fccfed64c4.png))
  
+ 
  # Задания
 
 - С помощью ```gdb``` выполнить отладку программы ```calcul```:
