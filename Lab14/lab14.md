@@ -199,31 +199,31 @@ header-includes:
 **Код:**
 
 
-#Makefile
+```#Makefile```
 
-  CC = gcc                                *(Переменные)*
+  ```CC = gcc```                             *(Переменные)*
   
-  CFLAGS = 
+  ```CFLAGS =```
   
-  LIBS = -lm
+  ```LIBS = -lm```
   
-calcul: calculate.o main.o                *(calcul - цель, calculate.o & main.o - названия файлов, которые мы хотим скомпилировать)*
+```calcul: calculate.o main.o```                *(calcul - цель, calculate.o & main.o - названия файлов, которые мы хотим скомпилировать)*
 
-gcc calculate.o main.o -o calcul $(LIBS). *(команда компиляции gcc с опциями)*
+```gcc calculate.o main.o -o calcul $(LIBS)``` *(команда компиляции gcc с опциями)*
 
-calculate.o: calculate.c calculate.h      *(calculate.o - цель, calculate.c & calculate.h - названия файлов, которые мы хотим скомпилировать)*
+```calculate.o: calculate.c calculate.h```      *(calculate.o - цель, calculate.c & calculate.h - названия файлов, которые мы хотим скомпилировать)*
 
-gcc -c calculate.c $(CFLAGS)              *(команда компиляции gcc с опциями)*
+```gcc -c calculate.c $(CFLAGS)```              *(команда компиляции gcc с опциями)*
 
-main.o: main.c calculate.h                 *(main.o - цель, main.c & calculate.h - названия файлов, которые мы хотим скомпилировать)*
+```main.o: main.c calculate.h```                 *(main.o - цель, main.c & calculate.h - названия файлов, которые мы хотим скомпилировать)*
 
-gcc -c main.c $(CFLAGS)                     *(команда компиляции gcc с опциями)*
+```gcc -c main.c $(CFLAGS)```                     *(команда компиляции gcc с опциями)*
 
-clean:                           *(Цель с именем clean производит очистку каталога от файлов, полученных в результате компиляции)*
+```clean:```                           *(Цель с именем clean производит очистку каталога от файлов, полученных в результате компиляции)*
 
-   -rm calcul *.o *~
+   ```-rm calcul *.o *~```
           
-  #End Makefile
+  ```#End Makefile```
 
 
 8.	С помощью ```gdb``` выполните отладку программы ```calcul```:
