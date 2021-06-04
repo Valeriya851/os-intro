@@ -157,20 +157,20 @@ header-includes:
 
 3.	 Реализовала функций калькулятора в файле calculate.c*(рис 3.1)*
 
- ![]()
+ ![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab14/Screenshot/Снимок%20экрана%202021-06-04%20в%2020.49.39.png?raw=true![image](https://user-images.githubusercontent.com/83212205/120820752-a2054800-c576-11eb-906c-7e971d65f0bd.png))
  
  *Рис 3.1. Реализация*
  
 4.  Интерфейсный файл calculate.h, описывающий формат вызова функции- калькулятора *(рис 4.1)*: `
 
-![]()
+![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab14/Screenshot/Снимок%20экрана%202021-06-04%20в%2020.50.00.png?raw=true![image](https://user-images.githubusercontent.com/83212205/120820831-b47f8180-c576-11eb-8adc-6aca9169cbd0.png))
 
 *Рис 4.1. Интерфейсный файл*
 
 
 5.	Основной файл main.c, реализующий интерфейс пользователя к калькулятору: *(рис 5.1)*
  
- ![]()
+ ![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab14/Screenshot/Снимок%20экрана%202021-06-04%20в%2020.49.51.png?raw=true![image](https://user-images.githubusercontent.com/83212205/120820788-ab8eb000-c576-11eb-8264-ad23abe0e7cd.png))
  
 *Рис 5.1. Основной файл*
 
