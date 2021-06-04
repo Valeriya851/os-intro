@@ -134,11 +134,9 @@ header-includes:
 
 ```mkdir lab_prog```
 
-   ![]()
+   ![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab14/Screenshot/1.png?raw=true![image](https://user-images.githubusercontent.com/83212205/120824227-0c6bb780-c57a-11eb-92cd-9d828f592838.png))
    
-   ![]()
-   
-*Рис 1.1 и 1.2. Создание подкаталога*
+*Рис 1.1. Создание подкаталога*
 
 2.	Создала в нём файлы: calculate.h, calculate.c, main.c *(рис 2.1 и 2.2)*:
 
@@ -150,9 +148,9 @@ header-includes:
 
 ```touch main.c```
  
- ![]()
+ ![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab14/Screenshot/2.png?raw=true![image](https://user-images.githubusercontent.com/83212205/120824280-1beb0080-c57a-11eb-8ffa-9275f378da63.png))
  
-*Рис 2.1 и 2.2. Создание файлов*
+*Рис 2.1. Создание файлов*
 
 
 3.	 Реализовала функций калькулятора в файле calculate.c*(рис 3.1)*
@@ -183,7 +181,7 @@ header-includes:
       
 ```gcc calculate.o main.o -o calcul -lm```
 
- ![]()
+ ![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab14/Screenshot/3.png?raw=true![image](https://user-images.githubusercontent.com/83212205/120824332-2c02e000-c57a-11eb-807e-c83bbcf63917.png))
  
 *Рис 6.1. Компиляция*
 
@@ -192,7 +190,9 @@ header-includes:
 
 ```touch Makefile```
 
- ![]()
+ ![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab14/Screenshot/4.png?raw=true![image](https://user-images.githubusercontent.com/83212205/120824370-34f3b180-c57a-11eb-8832-025c952222ce.png))
+ 
+ ![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab14/Screenshot/5.png?raw=true![image](https://user-images.githubusercontent.com/83212205/120824421-42a93700-c57a-11eb-8cca-a7fccfed64c4.png))
  
 *Рис 7.1. Makefile*
 
@@ -203,7 +203,7 @@ header-includes:
 
 ```gdb ./calcul```
 
- ![]()
+ ![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab14/Screenshot/6.png?raw=true![image](https://user-images.githubusercontent.com/83212205/120824460-4d63cc00-c57a-11eb-973d-d05dd1baa1f2.png))
  
  *Рис 8.1. Запуск отладчика*
  
@@ -211,7 +211,7 @@ header-includes:
 
 ```run```
 
- ![]()
+ ![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab14/Screenshot/7.png?raw=true![image](https://user-images.githubusercontent.com/83212205/120824502-594f8e00-c57a-11eb-9c11-38047981bf41.png))
 
 *Рис 8.2. Запуск программы*
 
@@ -219,7 +219,7 @@ header-includes:
 
 ```list```
 
- ![]()
+ ![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab14/Screenshot/9.png?raw=true![image](https://user-images.githubusercontent.com/83212205/120824613-71271200-c57a-11eb-89bb-6ab4b9880468.png))
 
 *Рис 8.3. Просмотр кода*
 
@@ -227,7 +227,7 @@ header-includes:
 
 ```break 21```
 
- ![]()
+ ![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab14/Screenshot/10.png?raw=true![image](https://user-images.githubusercontent.com/83212205/120824671-7c7a3d80-c57a-11eb-9ea0-3ebabe489c37.png))
 
 *Рис 8.4. Точка останова*
 
@@ -235,7 +235,7 @@ header-includes:
        
 ```info breakpoints```
 
- ![]()
+ ![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab14/Screenshot/11.png?raw=true![image](https://user-images.githubusercontent.com/83212205/120824709-856b0f00-c57a-11eb-8eca-8259d17d9611.png))
 
 *Рис 8.5. Вывод информации*
 
@@ -251,7 +251,9 @@ header-includes:
 
 ```delete 1```
 
-![]()
+![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab14/Screenshot/12.png?raw=true![image](https://user-images.githubusercontent.com/83212205/120824750-8ef47700-c57a-11eb-8f69-4468d465a988.png))
+
+![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab14/Screenshot/13.png?raw=true![image](https://user-images.githubusercontent.com/83212205/120824803-9b78cf80-c57a-11eb-9f76-25eaa9411b87.png))
 
 *Рис 8.6. Удаление точки отсанова*
 
@@ -260,19 +262,21 @@ header-includes:
 
 ```sudo apt install splint``` (установка утилиты ```splint```) *(рис 9.0)*:
 
-![]()
+![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab14/Screenshot/14.png?raw=true![image](https://user-images.githubusercontent.com/83212205/120824881-ab90af00-c57a-11eb-9188-69e577cc9a86.png))
 
 *Рис 9.0. Установка*
 
 ```splint calculate.c```*(рис 9.1)*:
  
- ![]()
+ ![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab14/Screenshot/16.png?raw=true![image](https://user-images.githubusercontent.com/83212205/120824998-c6632380-c57a-11eb-8e90-223db12d02dc.png))
+ 
+ ![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab14/Screenshot/17.png?raw=true![image](https://user-images.githubusercontent.com/83212205/120825033-cebb5e80-c57a-11eb-94ec-af68fdd38051.png))
 
 *Рис 9.1. Код ```calculate.c```*
 
 ```splint main.c```*(рис 9.2)*:
  
- ![]()
+ ![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab14/Screenshot/15.png?raw=true![image](https://user-images.githubusercontent.com/83212205/120824930-b5b2ad80-c57a-11eb-8d30-ae568ba0346e.png))
 
 *Рис 9.2. Код ```main.c```*
 
