@@ -50,8 +50,8 @@ section-titles: true
 
 Makefile:
 
-![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab15/Screenshot/3.png?raw=true![image](https://user-images.githubusercontent.com/83212205/121566227-1b9daa00-ca3f-11eb-958a-d84ec7d59af5.png))
-
+  ![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab15/Screenshot/4.png?raw=true![image](https://user-images.githubusercontent.com/83212205/121566264-23f5e500-ca3f-11eb-81b5-5633eab6892e.png))
+   
 
 
 
@@ -59,8 +59,7 @@ Makefile:
 
 server.c:
 
-![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab15/Screenshot/2.png?raw=true![image](https://user-images.githubusercontent.com/83212205/121566187-12144200-ca3f-11eb-82ed-62382ed028bf.png))
-
+![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab15/Screenshot/3.png?raw=true![image](https://user-images.githubusercontent.com/83212205/121566227-1b9daa00-ca3f-11eb-958a-d84ec7d59af5.png))
 
 # Задания
 
