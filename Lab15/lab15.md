@@ -117,90 +117,92 @@ int mkfifo(const char *pathname, mode_t mode);
 # **Описание результатов выполнения задания:**
 
 
-1.  *(рис 1.1 и 1.2)*:
+1. Cоздала файлы:
 
-```man mc```
+```touch Makefile``` *(рис 1.1)*:
 
-   ![]()
+   ![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab15/Screenshot/4.png?raw=true![image](https://user-images.githubusercontent.com/83212205/121566264-23f5e500-ca3f-11eb-81b5-5633eab6892e.png))
    
-   ![]()
-   
-*Рис 1.1 и 1.2.*
+*Рис 1.1. Makefile*
 
-2.	*(рис 2.1 и 2.2)*:
+```touch server.c``` *(рис 1.2)*:
 
-```mc```
+![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab15/Screenshot/3.png?raw=true![image](https://user-images.githubusercontent.com/83212205/121566227-1b9daa00-ca3f-11eb-958a-d84ec7d59af5.png))
+
+*Рис 1.2. server.c*
+
+```touch client.c``` *(рис 1.3)*:
+
+![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab15/Screenshot/2.png?raw=true![image](https://user-images.githubusercontent.com/83212205/121566187-12144200-ca3f-11eb-82ed-62382ed028bf.png))
+
+*Рис 1.3. client.c*
+
+```touch common.h``` *(рис 1.4)*:
+
+![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab15/Screenshot/1.png?raw=true![image](https://user-images.githubusercontent.com/83212205/121566139-0759ad00-ca3f-11eb-84a1-c3548c8014db.png))
+
+*Рис 1.4. common.h*
+
+
+2.	Далее я выполнила следующее задание:
+
+Задание:
+
+Изучите приведённые в тексте программы server.c и client.c. Взяв данные примеры за образец, напишите аналогичные программы, внеся следующие изменения:
+
+1. Работает не 1 клиент, а несколько (например, два).
+
+2. Клиенты передают текущее время с некоторой периодичностью (например, раз в пять секунд). Используйте функцию sleep() для приостановки работы клиента.
+
+3. Сервер работает не бесконечно, а прекращает работу через некоторое время (например, 30 сек). Используйте функцию clock() для определения времени работы
+сервера. Что будет в случае, если сервер завершит работу, не закрыв канал?
  
- ![]()
+Измененный Makefile *(рис 2.1)*:
  
- ![]()
+ ![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab15/Screenshot/5.png?raw=true![image](https://user-images.githubusercontent.com/83212205/121566309-307a3d80-ca3f-11eb-8b77-52552ffd2e22.png))
  
-*Рис 2.1 и 2.2.*
+*Рис 2.1. Makefile*
+
+Измененный server.c *(рис 2.2)*:
+ 
+ ![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab15/Screenshot/7.png?raw=true![image](https://user-images.githubusercontent.com/83212205/121566389-47209480-ca3f-11eb-8b8a-1bfcfc7aaaee.png))
+ 
+ ![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab15/Screenshot/8.png?raw=true![image](https://user-images.githubusercontent.com/83212205/121566436-569fdd80-ca3f-11eb-8cdc-a9e002951c76.png))
+ 
+*Рис 2.2. server.c*
 
 
-3.	: *(рис 3.1)*
+Измененный client.c *(рис 2.3)*:
+ 
+ ![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab15/Screenshot/6.png?raw=true![image](https://user-images.githubusercontent.com/83212205/121566354-3bcd6900-ca3f-11eb-99af-3749c41dc719.png))
+ 
+*Рис 2.3. client.c*
 
-![]()
 
-*Рис 3.1.*
+Измененный common.h *(рис 2.4)*:
+ 
+ ![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab15/Screenshot/9.png?raw=true![image](https://user-images.githubusercontent.com/83212205/121566481-615a7280-ca3f-11eb-8a20-4c22e2d16c46.png))
+ 
+*Рис 2.4. coomon.h*
+
+3.	Запуск: *(рис 3.1)*
+
+Можно запустить или с помощью Makefile:
+
+Ввести ```make```
+
+Или вот так:
+
+```gcc server.c -o server``` и ```gcc client.c -o client```
+
+```./server``` и ```./client```
+
+
+![](https://github.com/Valeriya851/os-intro/blob/os-intro/Lab15/Screenshot/запуск.png?raw=true![image](https://user-images.githubusercontent.com/83212205/121566520-6ae3da80-ca3f-11eb-88c8-329d0fc5bb8c.png))
+
+*Рис 3.1. Запуск*
 
  
- 
-4.  *(рис 4.1)*: `
-
-![]()
-
-*Рис 4.1.*
-
- 
- 
-5.	: *(рис 5.1)*
- 
- ![]()
- 
-*Рис 5.1.*
-
-
-6.	 *(рис 6.1)*:
-
- ![]()
- 
-*Рис 6.1.*
-
-
-
-7.	: *(рис 7.1)*
-
- ![]()
- 
-*Рис 7.1.*
-
-
-
-
-
-8.	:
-
-```touch file1.txt```
-
-
-9.  : 
-
-```F4```
- 
-
-10.	 *(рис 10.1)*:
-
-
-*Рис 10.1.*
-
-
-![]()
-
-
-11.	.
-
-
 
 # **Библиография:**
 
